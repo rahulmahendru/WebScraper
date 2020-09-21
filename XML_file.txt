@@ -1,0 +1,1817 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta content="initial-scale=1.0, width=device-width" name="viewport"/>
+  <meta content="Codementor" name="application-name"/>
+  <link href="https://assets.codementor.io/icons/apple-touch-icon-60x60.png" rel="apple-touch-icon-precomposed" sizes="60x60"/>
+  <link href="https://assets.codementor.io/icons/apple-touch-icon-120x120.png" rel="apple-touch-icon-precomposed" sizes="120x120"/>
+  <link href="https://assets.codementor.io/icons/apple-touch-icon-76x76.png" rel="apple-touch-icon-precomposed" sizes="76x76"/>
+  <link href="https://assets.codementor.io/icons/apple-touch-icon-152x152.png" rel="apple-touch-icon-precomposed" sizes="152x152"/>
+  <link href="https://assets.codementor.io/icons/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+  <link href="https://assets.codementor.io/icons/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+  <link href="https://assets.codementor.io/icons/favicon-96x96.png" rel="icon" sizes="96x96" type="image/png"/>
+  <link href="https://assets.codementor.io/icons/favicon-128.png" rel="icon" sizes="128x128" type="image/png"/>
+  <link href="https://assets.codementor.io/icons/favicon-196x196.png" rel="icon" sizes="196x196" type="image/png"/>
+  <link href="https://api.codementor.io/api" rel="dns-prefetch"/>
+  <link href="https://community-api.codementor.io" rel="dns-prefetch"/>
+  <link href="https://api.codementor.io/api" rel="preconnect"/>
+  <link href="https://community-api.codementor.io" rel="preconnect"/>
+  <link crossorigin="anonymous" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <script src="https://cdn.jsdelivr.net/npm/@codementor/tracker@3.9.1/dist/bundled.js">
+  </script>
+  <link data-react-helmet="true" href="https://www.codementor.io/@npostolovski/40-side-project-ideas-for-software-engineers-g8xckyxef" rel="canonical"/>
+  <link data-react-helmet="true" href="https://plus.google.com/+codementor" rel="publisher"/>
+  <link data-react-helmet="true" href="https://www.codementor.io/@npostolovski" rel="author"/>
+  <meta content="The most exciting side projects a soft engineer could pursue." data-react-helmet="true" name="description"/>
+  <meta content="Tash Postolovski" data-react-helmet="true" name="author"/>
+  <meta content="always" data-react-helmet="true" name="referrer"/>
+  <meta content="index, follow" data-react-helmet="true" name="robots"/>
+  <meta content="article" data-react-helmet="true" property="og:type"/>
+  <meta content="40 Side Project Ideas for Software Engineers  | Codementor" data-react-helmet="true" property="og:title"/>
+  <meta content="https://www.codementor.io/@npostolovski/40-side-project-ideas-for-software-engineers-g8xckyxef" data-react-helmet="true" property="og:url"/>
+  <meta content="https://cdn.filestackcontent.com/1L1wbcCQg2ngajmOjHZV" data-react-helmet="true" property="og:image"/>
+  <meta content="The most exciting side projects a soft engineer could pursue." data-react-helmet="true" property="og:description"/>
+  <meta content="summary_large_image" data-react-helmet="true" name="twitter:card"/>
+  <meta content="40 Side Project Ideas for Software Engineers  | Codementor" data-react-helmet="true" name="twitter:title"/>
+  <meta content="The most exciting side projects a soft engineer could pursue." data-react-helmet="true" name="twitter:description"/>
+  <meta content="https://cdn.filestackcontent.com/1L1wbcCQg2ngajmOjHZV" data-react-helmet="true" property="twitter:image:src"/>
+  <meta content="40 Side Project Ideas for Software Engineers  | Codementor" data-react-helmet="true" name="twitter:image:alt"/>
+  <script data-react-helmet="true" type="application/ld+json">
+   [{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Codementor","item":{"@id":"https://www.codementor.io","name":"Codementor"}},{"@type":"ListItem","position":2,"name":"Community","item":{"@id":"https://www.codementor.io/community","name":"Community"}},{"@type":"ListItem","position":3,"name":"Software engineering","item":{"@id":"https://www.codementor.io/community/topic/software-engineering","name":"Software engineering"}},{"@type":"ListItem","position":4,"name":"40 Side Project Ideas for Software Engineers ","item":{"@id":"https://www.codementor.io/@npostolovski/40-side-project-ideas-for-software-engineers-g8xckyxef","name":"40 Side Project Ideas for Software Engineers ","image":"https://cdn.filestackcontent.com/1L1wbcCQg2ngajmOjHZV"}}]},{"@context":"http://schema.org","@type":"Article","author":{"@type":"Person","name":"Tash Postolovski"},"name":"40 Side Project Ideas for Software Engineers ","headline":"40 Side Project Ideas for Software Engineers ","image":{"@type":"ImageObject","url":"https://cdn.filestackcontent.com/1L1wbcCQg2ngajmOjHZV"},"dateModified":"2018-07-30T21:16:11.000Z","mainEntityOfPage":"https://www.codementor.io/@npostolovski/40-side-project-ideas-for-software-engineers-g8xckyxef","description":"The most exciting side projects a soft engineer could pursue.","publisher":{"@type":"Organization","name":"Codementor","logo":{"@type":"ImageObject","url":"https://assets.codementor.io/icons/favicon-32x32.png"}}}]
+  </script>
+  <title data-react-helmet="true">
+   40 Side Project Ideas for Software Engineers  | Codementor
+  </title>
+  <script>
+   function getMode () {
+  var host = location.hostname
+  return ['local', 'localhost', 'staging', 'qa'].reduce(function(prev, next) {
+    return host.indexOf(next) > -1 ? next : prev
+  }, '') || 'production'
+}
+window.__CmTracker__({
+  mode: getMode(),
+  amplitudeEnabled: true,
+  gtmEnabled: ['production', 'staging', 'qa'].indexOf(getMode()) > -1
+})
+  </script>
+  <script>
+   (function() {
+ window._pa = window._pa || {}; _pa.orderId = '';
+ var pa = document.createElement('script'); pa.type = 'text/javascript'; pa.async = true;
+ pa.src = ('https:' == document.location.protocol ? 'https:' : 'http:') + '//tag.perfectaudience.com/serve/5230ba2b3f55731e15000057.js';
+ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(pa, s);
+})();
+  </script>
+  <script>
+   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga')
+  </script>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,minimum-scale=1,initial-scale=1" name="viewport"/>
+  <meta content="2" name="next-head-count"/>
+  <link as="script" crossorigin="anonymous" href="https://lite-cdn.codementor.io/_next/static/lyZ0jw4V9dJMel8CwRD_I/pages/article/show.js" rel="preload"/>
+  <link as="script" crossorigin="anonymous" href="https://lite-cdn.codementor.io/_next/static/lyZ0jw4V9dJMel8CwRD_I/pages/_app.js" rel="preload"/>
+  <link as="script" crossorigin="anonymous" href="https://lite-cdn.codementor.io/_next/static/runtime/webpack-5b086409cda18be5b99f.js" rel="preload"/>
+  <link as="script" crossorigin="anonymous" href="https://lite-cdn.codementor.io/_next/static/chunks/commons.b16d272deb3faeccf90f.js" rel="preload"/>
+  <link as="script" crossorigin="anonymous" href="https://lite-cdn.codementor.io/_next/static/runtime/main-f63d6cb97e1c88a2306c.js" rel="preload"/>
+  <style id="jss-ssr">
+   html {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  font-family: Open Sans, sans-serif;
+}
+@media print {
+  body {
+    background-color: #fff;
+  }
+}
+a {
+  color: #00b5e2;
+  cursor: pointer;
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+  </style>
+  <style data-styled="kFnHza fipCph ibectM kqycIe SEckX iplpgg cKAvma hOFAbB ektknp gdEuyj" data-styled-version="4.4.1">
+   /* sc-component-id: sc-bwzfXH */
+.SEckX{padding:30px 6px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;list-style:none;} .SEckX > li{padding:0px 8px 0px 24px;} .SEckX > li + li{border-left:solid 1px #e6e6e6;} .SEckX > li ul{padding:0;margin-top:12px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;min-width:80px;max-height:270px;list-style:none;} .SEckX > li ul > li{display:inline-block;white-space:nowrap;margin-right:16px;} .SEckX > li ul > li a{font-size:13px;line-height:1.62;text-align:left;color:#005672;} .SEckX .group-name > a{color:#003648;} .SEckX > li ul > li a:hover,.SEckX > li ul > li a:focus{color:#0095bf;-webkit-text-decoration:none;text-decoration:none;} .SEckX .group-name{font-size:16px;font-weight:bold;line-height:1.25;color:#003648;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;} .SEckX.category-groups--mentor .group-name{height:40px;} .SEckX.category-groups--freelancer > li ul{max-height:126px;}
+/* sc-component-id: sc-htpNat */
+.ibectM{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;margin:0;} .ibectM svg{width:14px;height:14px;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;} .ibectM svg path:last-child{fill:#333333;} .ibectM svg:hover{opacity:1;} .ibectM svg:hover path:last-child{fill:#333333;}
+/* sc-component-id: sc-bxivhb */
+.fipCph{position:relative;height:100%;font-size:14px;} .fipCph:hover{background-color:rgba(51,51,51,0.04);} .fipCph > a{height:100%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;padding:23px 16px 22px;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;color:#333333;font-weight:normal;white-space:nowrap;} .fipCph > a:hover,.fipCph > a:focus{-webkit-text-decoration:none;text-decoration:none;} .fipCph > a span{margin-left:4px;}
+/* sc-component-id: sc-ifAKCX */
+.kqycIe{display:none;position:absolute;border-radius:3px;background:#fff;left:0;-webkit-transform:translateY(0%);-ms-transform:translateY(0%);transform:translateY(0%);box-shadow:0 8px 12px 0 rgba(0,0,0,0.12),0 4px 8px 0 rgba(0,0,0,0.24), inset 0 1px 0 0 #e6e6e6;}
+/* sc-component-id: sc-EHOje */
+.gdEuyj{display:inline-block;padding:12px 16px;width:100%;font-size:14px;background:#fff;color:#333;} .gdEuyj:hover{-webkit-text-decoration:none;text-decoration:none;background-color:#f6f6f6;color:#333;}
+/* sc-component-id: sc-bZQynM */
+.iplpgg{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;padding:30px;width:570px;} .iplpgg svg{width:48px;height:48px;margin-right:16px;} .iplpgg .menu__left{border-right:solid 1px #e6e6e6;padding-right:32px;-webkit-flex:1;-ms-flex:1;flex:1;} .iplpgg .menu__left > a + a{margin-top:31px;} .iplpgg .menu__title{font-size:16px;font-weight:bold;line-height:1.5;color:#003648;} .iplpgg .menu__description{font-size:14px;line-height:1.43;text-align:left;color:#666;} .iplpgg .menu__left a.menu__item:hover .menu__title{color:#009fc6;} .iplpgg .menu__left a.menu__item:hover .menu__description{color:#999;} .iplpgg .menu__right{padding-left:32px;} .iplpgg .menu__right ul{padding:0;} .iplpgg .menu__right ul a{display:block;font-size:14px;line-height:1.5;color:#005672;} .iplpgg .menu__right ul a:hover,.iplpgg .menu__right ul a:focus{color:#0095bf;-webkit-text-decoration:none;text-decoration:none;} .iplpgg .menu__item{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;} .iplpgg .menu__item:hover,.iplpgg .menu__item:focus{-webkit-text-decoration:none;text-decoration:none;} .iplpgg .menu__item i{-webkit-flex:none;-ms-flex:none;flex:none;margin-right:16px;} .iplpgg .menu__item__info{-webkit-flex:1;-ms-flex:1;flex:1;}
+/* sc-component-id: sc-gzVnrw */
+.hOFAbB{height:26px;width:50px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;cursor:pointer;} .hOFAbB span,.hOFAbB span:before,.hOFAbB span:after{-webkit-transition:all 300ms ease-in-out;transition:all 300ms ease-in-out;border-radius:1px;height:3px;width:18px;background-color:#00445b;position:absolute;display:block;content:'';} .hOFAbB:hover span{background-color:#00445b;opacity:0.8;} .hOFAbB:active span,.hOFAbB:focus span{outline:none;} .hOFAbB span:before,.hOFAbB span:after{-webkit-transition:all 150ms ease-in-out;transition:all 150ms ease-in-out;} .hOFAbB span:before{top:-6px;} .hOFAbB span:after{top:6px;} .hOFAbB.dropdown-menu__icon--active span{background-color:transparent;} .hOFAbB.dropdown-menu__icon--active span:before,.hOFAbB.dropdown-menu__icon--active span:after{top:0;} .hOFAbB.dropdown-menu__icon--active span:before{-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg);} .hOFAbB.dropdown-menu__icon--active span:after{-webkit-transform:rotate(-45deg);-ms-transform:rotate(-45deg);transform:rotate(-45deg);} .hOFAbB.dropdown-menu__icon--active span:hover span{background-color:transparent;}
+/* sc-component-id: sc-htoDjs */
+.cKAvma{position:relative;cursor:pointer;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+/* sc-component-id: sc-dnqmqq */
+.ektknp{position:absolute;width:220px;box-shadow:0 3px 3px 0 rgba(0,0,0,0.17);top:100%;border-top:1px solid #eee;z-index:4;display:none;right:0;}
+/* sc-component-id: sc-iwsKbI */
+.kFnHza{list-style:none;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;padding:0;margin:0;} .kFnHza a{-webkit-text-decoration:none;text-decoration:none;} .kFnHza ul,.kFnHza ul li{list-style:none;margin:0;}
+  </style>
+  <style id="__jsx-2571380363">
+   .menu-search.jsx-2571380363{width:130px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:end;-webkit-justify-content:flex-end;-ms-flex-pack:end;justify-content:flex-end;margin:0 0.6em;}.menu-search__trigger.jsx-2571380363{width:24px;margin-top:-2px;text-align:center;cursor:pointer;color:#999;}.menu-search__trigger.jsx-2571380363 i.jsx-2571380363{font-size:16px;}.menu-search.jsx-2571380363 input.jsx-2571380363{-webkit-flex:0;-ms-flex:0;flex:0;min-width:0;font-size:14px;border:none;background:transparent;-webkit-transition:flex 0.3s ease-out;transition:flex 0.3s ease-out;padding:0;}.menu-search--expand.jsx-2571380363 input.jsx-2571380363{-webkit-flex:1;-ms-flex:1;flex:1;}@media (max-width:450px){.menu-search.jsx-2571380363{display:none;}}
+  </style>
+  <style id="__jsx-1117955809">
+   .menu.jsx-1117955809{-webkit-flex:1;-ms-flex:1;flex:1;margin-left:8px;}@media (max-width:1024px){.menu.jsx-1117955809>ul{display:none;}}
+  </style>
+  <style id="__jsx-27858251">
+   .right-nav.jsx-27858251{height:100%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}.right-nav__wide.jsx-27858251{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;margin-right:4px;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}.right-nav__wide__link.jsx-27858251{-webkit-flex:none;-ms-flex:none;flex:none;cursor:pointer;padding:21px 16px 20px 16px;font-size:14px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;height:100%;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;color:#333;}.right-nav__wide__link.jsx-27858251:hover,.right-nav__wide__link.jsx-27858251:focus{-webkit-text-decoration:none;text-decoration:none;background-color:rgba(51,51,51,0.04);}.right-nav__mini.jsx-27858251{height:100%;display:none;}.right-nav__mini.jsx-27858251:hover{background:rgba(51,51,51,0.04);}.signup-btn--highlight.jsx-27858251{background-color:#009fc6;color:#fff;border-radius:3px;height:initial;padding:8px 16px;}.signup-btn--highlight.jsx-27858251:hover{border-radius:0px;background-color:#009fc6;padding:22px 16px;-webkit-transition:padding 200ms ease-in-out;transition:padding 200ms ease-in-out;}@media (max-width:1024px){.right-nav__wide.jsx-27858251{display:none;}.right-nav__mini.jsx-27858251{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}.signup-btn.jsx-27858251{color:inherit;border-radius:0px;padding:16px 30px;background-color:transparent;}.signup-btn.jsx-27858251:hover{background-color:rgba(51,51,51,0.04);-webkit-transition:none;transition:none;padding:16px 30px;}}
+  </style>
+  <style id="__jsx-881682486">
+   .container.jsx-881682486{z-index:1;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;height:60px;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;background-color:#f9fbfb;padding-left:1.3em;box-shadow:0 1px 3px 0 rgba(0,0,0,0.2);}.container.jsx-881682486 .logo{width:136px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;overflow:hidden;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}.container.jsx-881682486 .logo .mini-logo{width:29.4px;fill:#003648;display:none;}.child.jsx-881682486{height:100%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:end;-webkit-justify-content:flex-end;-ms-flex-pack:end;justify-content:flex-end;-webkit-flex:1;-ms-flex:1;flex:1;}.settings.jsx-881682486{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;height:100%;}.settings.jsx-881682486 .setting-dropdown{margin-right:16px;}.settings.jsx-881682486 .setting-dropdown__box{top:49px;}.settings.jsx-881682486 .setting-dropdown .avatar-img{width:36px;height:36px;}.sign-up.jsx-881682486{color:#999;text-transform:uppercase;-webkit-text-decoration:none;text-decoration:none;font-size:13px;font-weight:bold;line-height:1.5;cursor:pointer;}.sign-up.jsx-881682486:hover{color:#888;}@media (max-width:560px){.container.jsx-881682486 .logo{width:auto;}.container.jsx-881682486 .logo .medium-logo{display:none;}.container.jsx-881682486 .logo .mini-logo{display:block;}}
+  </style>
+  <style id="__jsx-617897676">
+   div.jsx-617897676{width:40px;height:40px;background:#eee;border-radius:50%;}
+  </style>
+  <style id="__jsx-633013373">
+   .bottom-bar.jsx-633013373{position:fixed;z-index:1;right:0;left:0;bottom:0;background-color:#f9fbfb;box-shadow:0 -10px 16px 0px rgba(0,0,0,0.1);}.wrapper.jsx-633013373 .avatar-img{margin-right:10px;}.wrapper.jsx-633013373{width:90%;max-width:760px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin:0.6em auto;font-size:16px;line-height:20px;color:rgba(47,80,80,0.8);}.text.jsx-633013373 strong.jsx-633013373{color:#444;font-size:1em;}.wrapper.jsx-633013373 .action.jsx-633013373{margin-left:1em;}.wrapper.jsx-633013373 .action.jsx-633013373 div.btn-primary.jsx-633013373{width:120px;}@media (max-width:1200px){.bottom-bar.jsx-633013373{display:none;}}
+  </style>
+ </head>
+ <body>
+  <style>
+   /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}[hidden],template{display:none}html{box-sizing:border-box}body{font-family:Open Sans,sans-serif}*,:after,:before{box-sizing:inherit}img{max-width:100%}a{color:#009fc6;text-decoration:none;outline:none}a:hover{text-decoration:underline}p{-webkit-margin-before:0}button,input,optgroup,select,textarea{font-family:Open Sans,sans-serif;outline:none}select,textarea{max-width:100%;border-radius:2px;border:1px solid #e1e6e6;transition:all .2s ease-out;color:#555;margin:0;padding:8px 10px}select:focus,textarea:focus{border:1px solid #afbdbd;color:#333}select:required,textarea:required{box-shadow:none}#at4m-mobile-container,.at-share-dock-outer.addthis-smartlayers-mobile{display:none!important}.ReactModal__Body--open{overflow:hidden}
+  </style>
+  <div id="__next">
+   <div class="article" id="community-article">
+    <style>
+     .header-notification-summary{position:relative;cursor:pointer;font-size:14px;line-height:18px}.header-notification-summary__community-icon{background-image:url(https://lite-cdn.codementor.io/public/static/images/Notification/community-icon.png?17471e34d60);background-position:0 -6px;background-size:cover;width:30px;height:18px}.header-notification-summary__community-icon:hover{background-position:0 24px}.header-notification-summary.light-theme .header-notification-summary__community-icon{background-image:url(https://lite-cdn.codementor.io/public/static/images/Notification/community-icon-grey.png?17471e34d60)}.header-notification-summary.light-theme .header-menu__right-item__icon--active{background:transparent;box-shadow:none}.header-notification-summary__footer{padding:8px}.header-notification-summary__loader{background:url(https://lite-cdn.codementor.io/public/static/images/LoadingGif/square.gif?17471e34d60) no-repeat;background-position:50%;background-size:contain;height:10px}.header-notification-summary__notifications-box{position:absolute;min-height:150px;width:400px;background-color:#fff;top:50px;right:0;box-shadow:0 3px 3px 0 rgba(0,0,0,.17);z-index:2}.header-notification-summary__notifications-box--hide{display:none}@media (max-width:640px){.header-notification-summary__notifications-box{position:fixed;right:0;width:100vw}}.header-notification-summary__pad{font-size:.9em;padding:6px 15px;border-top:1px solid #eee;border-bottom:1px solid #eee;color:#777;background-color:#fff}.header-notification-summary__pad__view-all{font-weight:700}.header-notification-summary__pad__view-all:hover{text-decoration:none}.header-notification-summary__mark-all-as-read{float:right}.header-notification-summary__mark-all-as-read:after{clear:both}.header-notification-summary__notifications{max-height:394px;overflow-y:scroll;-webkit-overflow-scrolling:touch}.header-notification-summary__notifications>a:hover{text-decoration:none}.header-notification-summary__open-question-unread-count{background-color:#d9edf7;color:#3a87ad;font-weight:700;padding:0 15px;border-bottom:1px solid #eee}.header-notification-summary__open-question-unread-count--icon{margin-top:10px;width:30px;height:30px}.header-notification-summary__notification{padding:5px 15px;border-bottom:1px solid #eee;display:flex;position:relative}.header-notification-summary__notification--middle{margin-left:15px;margin-right:10px;flex:1}.header-notification-summary__notification--middle__title{margin:2px 0;color:#333;font-weight:700}.header-notification-summary__notification--middle__unread-count-title{color:#3a87ad;font-weight:700;line-height:50px;margin-bottom:0}.header-notification-summary__notification--middle__body{color:#666;height:42px;overflow:hidden;font-size:12px;line-height:20px;margin:2px 0}.header-notification-summary__notification--custom-icon,.header-notification-summary__notification .avatar-img{width:30px;height:30px;margin-top:18px}.header-notification-summary__notification--time{font-size:12px;width:45px;align-self:center;color:#666}.header-notification-summary__notification--unread{background-color:#f6f9fa}.header-notification-summary__notification--unread .header-notification-summary__notification__title{color:#000}.header-notification-summary__notification--unread .header-notification-summary__notification--time{color:#3e90ca;font-weight:700}.header-notification-summary__badge{font-size:11px;font-weight:700;line-height:16px;align-items:center;position:absolute;background:#ff7142;z-index:3;left:18px;top:8px;border-radius:11px;text-align:center;color:#fff;min-width:18px;height:18px;padding:1px 4px}.header-setting{position:relative;width:200px;padding:10px 0}.header-setting__user-info{display:flex;border-left:1px solid hsla(202,4%,50%,.5)}.header-setting__user-info--img{width:30px;height:30px;margin:0 10px 0 13px}.header-setting__user-info--img__gravatar{width:100%;height:100%;border-radius:50%}.header-setting__user-info--detail{flex:1;height:30px}.header-setting__user-info--detail__name{font-size:14px;line-height:17px;color:#fff;max-width:120px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}.header-setting__user-info--detail__time-zone{font-size:11px;line-height:13px;color:#d9dee0;max-width:120px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}.header-setting__user-info--dropdown{width:23px;height:30px;position:relative}@media (max-width:640px){.header-setting{width:36px}.header-setting .header-setting__user-info{border:none}.header-setting .header-setting__user-info--detail,.header-setting .header-setting__user-info--img{display:none}}.setting-dropdown{position:relative;padding:0 5px;cursor:pointer}.setting-dropdown__icon{height:30px;width:18px;display:inline-block}.setting-dropdown__icon:hover span,.setting-dropdown__icon:hover span:after,.setting-dropdown__icon:hover span:before{background-color:#fff;opacity:.85}.setting-dropdown__icon:active span,.setting-dropdown__icon:focus span{outline:none}.setting-dropdown__icon span,.setting-dropdown__icon span:after,.setting-dropdown__icon span:before{transition:all .3s ease-in-out;border-radius:1px;height:3px;width:18px;background-color:#fff;position:absolute;display:block;content:"";top:13px}.setting-dropdown__icon span:before{top:-6px}.setting-dropdown__icon span:after{top:6px}.setting-dropdown__icon--active span{background-color:transparent}.setting-dropdown__icon--active span:after,.setting-dropdown__icon--active span:before{top:0}.setting-dropdown__icon--active span:before{transform:rotate(45deg)}.setting-dropdown__icon--active span:after{transform:rotate(-45deg)}.setting-dropdown__icon--active:hover span{background-color:transparent}.setting-dropdown__box{position:absolute;width:219px;background-color:#fff;box-shadow:0 3px 3px 0 rgba(0,0,0,.17);-webkit-box-shadow:0 3px 3px 0 rgba(0,0,0,.17);-moz-box-shadow:0 3px 3px 0 rgba(0,0,0,.17);right:-15px;top:40px;border-top:1px solid #eee;z-index:2}.setting-dropdown__box--hide{display:none}.setting-dropdown__box__link{display:inline-block;padding:12px 16px;width:100%;font-size:14px;color:#666}.setting-dropdown__box__link>i{float:right;font-size:18px}.setting-dropdown__box__link:hover{text-decoration:none;background-color:#eee;color:#333}.noti-icon--new-related-request{background-image:url(/assets/images/Notification/request.png);background-size:100% 100%}.noti-icon--new-review{background-image:url(/assets/images/Notification/review.png);background-size:100% 100%}.noti-icon--schedule-created{background-image:url(/assets/images/Notification/schedule.png);background-size:100% 100%}.noti-icon--new-related-schedule-cluster{background-image:url(/assets/images/Notification/monthly.png);background-size:100% 100%}.noti-icon--hire-task-broadcast{background-image:url(/assets/images/Notification/for_hire.png);background-size:100% 100%}.header-notification__item{padding:.8em 1.2em;border-bottom:1px solid #eee;color:#666;display:flex}.header-notification__item:hover{background:#f8f8f8}.header-notification__item .notification-item__body{display:flex;flex-direction:column;flex:1;margin-left:15px}.header-notification__item .notification-item__avatar{position:relative}.header-notification__item .notification-item__avatar .avatar-img{width:30px;height:30px}.header-notification__item .notification-item__avatar .avatar-icon{position:absolute;bottom:4px;right:-3px;width:15px;height:15px;background-size:contain}.header-notification__item .notification-item__avatar .avatar-icon__follow{background-image:url(https://lite-cdn.codementor.io/public/static/images/Notification/follow.png?17471e34d60)}.header-notification__item .notification-item__avatar .avatar-icon__heart{background-image:url(https://lite-cdn.codementor.io/public/static/images/Notification/heart.png?17471e34d60)}.header-notification__item .notification-item__content__user{font-weight:600;color:#333}.header-notification__item .notification-item__content strong{font-size:14px;font-weight:600}.header-notification__item .notification-item__timestamp{color:#999;font-size:.8em}.header-notification__empty{display:flex;flex-direction:column;justify-content:center;align-items:center;padding:3em 1em}.header-notification__empty img{width:100px;margin-bottom:1em}.header-notification__empty p{margin-bottom:0}.header-notification__empty a{font-size:1.1em;margin-top:1em;font-weight:700}.header-notification__empty.anonymous{text-align:center}.header-notification__empty.anonymous img{width:90%;max-width:180px}.header-notification__empty.anonymous h4{font-weight:600;margin:0;color:#666}.header-notification__empty.anonymous p{color:gray;margin-bottom:1em}.header-notification__empty.anonymous a{font-size:1em;font-weight:400}.header-notification__empty.anonymous .btn-primary{width:auto;margin-bottom:10px;padding:1em 1.5em}.action-btn,.action-btn--hollow,.action-btn-light,.action-btn-primary,.action-btn-primary--disabled,.action-btn-secondary{border-radius:3px;padding:8px 18px;text-align:center;text-transform:uppercase;outline:none;border:none;cursor:pointer;display:inline-block}.action-btn--hollow i,.action-btn-light i,.action-btn-primary--disabled i,.action-btn-primary i,.action-btn-secondary i,.action-btn i{font-size:1.1em;padding-right:6px}.action-btn{background:#8c8c8c}.action-btn,.action-btn i{color:#f6f6f6}.action-btn:hover{background:#7e7e7e}.action-btn--hollow{padding:7px 13px;border:1px solid #868686;color:#868686;background:#fff}.action-btn--hollow:hover{border:1px solid #929292}.action-btn-light{color:#656565;background:#dcdcdc}.action-btn-light i{color:#777}.action-btn-light:hover{background:#c6c6c6}.action-btn-primary{color:#fff;background:#00b5e2;font-weight:500}.action-btn-primary i{color:#fff}.action-btn-primary:hover{background:#00a3cb}.action-btn-primary--disabled{cursor:default;opacity:.4;color:#fff;background:#00b5e2;font-weight:500}.action-btn-primary--disabled:hover{background:#0ecfff}.action-btn-secondary{color:#fff;background:#00bc8d}.action-btn-secondary i{color:#fff}.action-btn-secondary:hover{background:#00a97f}.btn,.btn--outline,.btn-frame-only,.btn-golden,.btn-golden--outline,.btn-heart,.btn-heart--active,.btn-more,.btn-primary,.btn-primary--outline,.btn-secondary,.btn-secondary--outline,.btn-social-email,.btn-social-email--outline,.btn-social-facebook,.btn-social-github,.btn-social-google,.btn-social-google--white,.btn-social-linkedin,.btn-social-twitter{cursor:pointer;font-size:13px;text-align:center;padding:8px 16px;display:flex;align-items:center;justify-content:center;border-radius:3px;transition:all .1s ease-out;text-decoration:none;text-transform:uppercase;outline:none}.btn--outline>span,.btn-frame-only>span,.btn-golden--outline>span,.btn-golden>span,.btn-heart--active>span,.btn-heart>span,.btn-more>span,.btn-primary--outline>span,.btn-primary>span,.btn-secondary--outline>span,.btn-secondary>span,.btn-social-email--outline>span,.btn-social-email>span,.btn-social-facebook>span,.btn-social-github>span,.btn-social-google--white>span,.btn-social-google>span,.btn-social-linkedin>span,.btn-social-twitter>span,.btn>span{margin-left:5px}.btn--outline--submitting,.btn--submitting,.btn-frame-only--submitting,.btn-golden--outline--submitting,.btn-golden--submitting,.btn-heart--active--submitting,.btn-heart--submitting,.btn-more--submitting,.btn-primary--outline--submitting,.btn-primary--submitting,.btn-secondary--outline--submitting,.btn-secondary--submitting,.btn-social-email--outline--submitting,.btn-social-email--submitting,.btn-social-facebook--submitting,.btn-social-github--submitting,.btn-social-google--submitting,.btn-social-google--white--submitting,.btn-social-linkedin--submitting,.btn-social-twitter--submitting{opacity:.7;cursor:default}.btn--disabled,.btn--outline--disabled,.btn-frame-only--disabled,.btn-golden--disabled,.btn-golden--outline--disabled,.btn-heart--active--disabled,.btn-heart--disabled,.btn-more--disabled,.btn-primary--disabled,.btn-primary--outline--disabled,.btn-secondary--disabled,.btn-secondary--outline--disabled,.btn-social-email--disabled,.btn-social-email--outline--disabled,.btn-social-facebook--disabled,.btn-social-github--disabled,.btn-social-google--disabled,.btn-social-google--white--disabled,.btn-social-linkedin--disabled,.btn-social-twitter--disabled{opacity:.4;cursor:not-allowed}.btn--outline:active,.btn--outline:focus,.btn--outline:hover,.btn-frame-only:active,.btn-frame-only:focus,.btn-frame-only:hover,.btn-golden--outline:active,.btn-golden--outline:focus,.btn-golden--outline:hover,.btn-golden:active,.btn-golden:focus,.btn-golden:hover,.btn-heart--active:active,.btn-heart--active:focus,.btn-heart--active:hover,.btn-heart:active,.btn-heart:focus,.btn-heart:hover,.btn-more:active,.btn-more:focus,.btn-more:hover,.btn-primary--outline:active,.btn-primary--outline:focus,.btn-primary--outline:hover,.btn-primary:active,.btn-primary:focus,.btn-primary:hover,.btn-secondary--outline:active,.btn-secondary--outline:focus,.btn-secondary--outline:hover,.btn-secondary:active,.btn-secondary:focus,.btn-secondary:hover,.btn-social-email--outline:active,.btn-social-email--outline:focus,.btn-social-email--outline:hover,.btn-social-email:active,.btn-social-email:focus,.btn-social-email:hover,.btn-social-facebook:active,.btn-social-facebook:focus,.btn-social-facebook:hover,.btn-social-github:active,.btn-social-github:focus,.btn-social-github:hover,.btn-social-google--white:active,.btn-social-google--white:focus,.btn-social-google--white:hover,.btn-social-google:active,.btn-social-google:focus,.btn-social-google:hover,.btn-social-linkedin:active,.btn-social-linkedin:focus,.btn-social-linkedin:hover,.btn-social-twitter:active,.btn-social-twitter:focus,.btn-social-twitter:hover,.btn:active,.btn:focus,.btn:hover{box-shadow:none;text-decoration:none}.btn{background-color:#8badb4;border:1px solid #8badb4;color:#fff}.btn:hover{background:#789fa7;border-color:#789fa7;color:#fff}.btn:active,.btn:focus{background:#6c97a0;border-color:#6c97a0}.btn--outline{background:transparent;color:#789fa7;border:1px solid #91b1b8;text-shadow:none;box-shadow:none}.btn--outline:active,.btn--outline:focus,.btn--outline:hover{background:transparent;color:#6c97a0;border:1px solid #6c97a0}.btn-more{background-color:rgba(0,0,0,.05);border:1px solid rgba(0,0,0,.05);color:#fff;color:#555}.btn-more:hover{color:#fff}.btn-more:active,.btn-more:focus,.btn-more:hover{background:rgba(0,0,0,.05);border-color:rgba(0,0,0,.05)}.btn-more:active,.btn-more:hover,.btn-morefocus{color:#555;background-color:rgba(0,0,0,.1)}.btn-primary{background-color:#009fc6;border:1px solid #009fc6;color:#fff}.btn-primary:hover{background:#008fb2;border-color:#008fb2;color:#fff}.btn-primary:active,.btn-primary:focus{background:#0086a6;border-color:#0086a6}.btn-primary--outline{background:transparent;color:#008fb2;border:1px solid #00acd6;text-shadow:none;box-shadow:none}.btn-primary--outline:active,.btn-primary--outline:focus,.btn-primary--outline:hover{background:transparent;color:#0086a6;border:1px solid #0086a6}.btn-secondary{background-color:#00bb8f;border:1px solid #00bb8f;color:#fff}.btn-secondary:hover{background:#00a881;border-color:#00a881;color:#fff}.btn-secondary:active,.btn-secondary:focus{background:#009d78;border-color:#009d78}.btn-secondary--outline{background:transparent;color:#00a881;border:1px solid #00cb9b;text-shadow:none;box-shadow:none}.btn-secondary--outline:active,.btn-secondary--outline:focus,.btn-secondary--outline:hover{background:transparent;color:#009d78;border:1px solid #009d78}.btn-golden{background-color:#ecbc40;border:1px solid #ecbc40;color:#fff}.btn-golden:hover{background:#e9b225;border-color:#e9b225;color:#fff}.btn-golden:active,.btn-golden:focus{background:#e5ac17;border-color:#e5ac17}.btn-golden--outline{background:transparent;color:#e9b225;border:1px solid #edbf4a;text-shadow:none;box-shadow:none}.btn-golden--outline:active,.btn-golden--outline:focus,.btn-golden--outline:hover{background:transparent;color:#e5ac17;border:1px solid #e5ac17}.btn-heart{font-size:14px;padding:5px 12px;border-radius:100px;background:#fff;color:#ff6671;border:1px solid #ff6671;text-shadow:none;box-shadow:none}.btn-heart>span{margin-left:6px;line-height:14px}.btn-heart__number{margin-left:4px;color:#666}.btn-heart:hover{box-shadow:0 4px 10px rgba(0,0,0,.05)}.btn-heart--active{color:#fff;background-color:#f66;border-color:#f66}.btn-heart--active .btn-heart__number{color:#fff}.btn-heart--active i.fa{animation:a .6s ease-in}.btn-heart--active:hover{opacity:.8}.btn-frame-only{padding:6px;border-radius:100px;padding:5px 12px;background:#fff;color:#333;border:1px solid #ddd;opacity:.8}.btn-frame-only img{height:16px}.btn-frame-only>span{margin-left:6px;line-height:14px}.btn-frame-only:hover{opacity:1}a[class^=btn-social],div[class^=btn-social]{height:auto}.btn-social-linkedin{background-color:#0077b5;border:1px solid #0077b5;color:#fff}.btn-social-linkedin:hover{background:#006fab;border-color:#006fab;color:#fff}.btn-social-linkedin:active,.btn-social-linkedin:focus{background:#066699;border-color:#066699}.btn-social-github{background-color:#00aced;border:1px solid #00aced;color:#fff}.btn-social-github:hover{color:#fff}.btn-social-github:active,.btn-social-github:focus,.btn-social-github:hover{background:#00aced;border-color:#00aced}.btn-social-google--white{background-color:#fff;border:1px solid #fff;color:#4c4c4c}.btn-social-google--white:hover{background:#f7f7f7;border-color:#f7f7f7;color:#4c4c4c}.btn-social-google--white:active,.btn-social-google--white:focus{background:#f0f0f0;border-color:#f0f0f0}.btn-social-google{background-color:#e65d4b;border:1px solid #e65d4b;color:#fff}.btn-social-google:hover{background:#e05c4a;border-color:#e05c4a;color:#fff}.btn-social-google:active,.btn-social-google:focus{background:#d25140;border-color:#d25140}.btn-social-twitter{background-color:#00aced;border:1px solid #00aced;color:#fff}.btn-social-twitter:hover{background:#06a1d9;border-color:#06a1d9;color:#fff}.btn-social-twitter:active,.btn-social-twitter:focus{background:#0697cc;border-color:#0697cc}.btn-social-facebook{background-color:#647bab;border:1px solid #647bab;color:#fff}.btn-social-facebook:hover{background:#566d9e;border-color:#566d9e;color:#fff}.btn-social-facebook:active,.btn-social-facebook:focus{background:#506694;border-color:#506694}.btn-social-email--outline{text-shadow:none;box-shadow:none}.btn-social-email--outline,.btn-social-email--outline:active,.btn-social-email--outline:focus,.btn-social-email--outline:hover{background:transparent;color:#70777a;border:1px solid #ccc}@keyframes a{0%{transform:scale(1)}10%{transform:scale(1.3)}36%{transform:scale(.95)}60%{transform:scale(1.2)}85%{transform:scale(1)}}.lazy-image__progressive{width:100%;height:100%;max-width:900px;position:relative;overflow:hidden}.lazy-image__progressive>img{height:auto;width:100%;position:absolute;top:-100%;bottom:-100%;left:-100%;right:-100%;margin:auto}.lazy-image__progressive__main{opacity:0;transition:opacity .4s ease-in}.lazy-image__progressive__main.loaded{opacity:1}.lazy-image__progressive__preview{filter:blur(6px);transform:scale(1);transition:visibility .5s ease-out}.lazy-image__progressive__preview.loaded{visibility:hidden}.divider{display:flex;align-items:center;margin:10px 0;font-size:14px;color:gray}.divider__text{padding:0 18px}.divider__line{flex:1;border:0;border-top:1px solid rgba(187,188,199,.5)}.react-tagsinput__tags{position:relative}.react-tagsinput-input{display:inline-block;background:#fff;border:1px solid #ddd;border-radius:2px;padding:8px}.react-tagsinput-input--hidden{display:none}.react-tagsinput-tag{border:1px solid #ddd;background:#e1e6e6;display:inline-block;padding:8px 12px;margin:0 8px 6px 0;border-radius:2px;color:#555;font-size:.9em}.react-tagsinput-remove:after{text-decoration:none;content:"x";color:#aaa;margin-left:5px;cursor:pointer}.react-autosuggest__container{display:inline-block;position:relative}.react-autosuggest__container ul{padding:0;margin:0;list-style:none}.react-autosuggest__suggestions-container{position:absolute;z-index:1;list-style-type:none;box-shadow:.05em .01em .5em rgba(0,0,0,.2);background:#fff;width:100%}.react-autosuggest__suggestion{border-bottom:1px solid #ececec;padding:8px 10px;margin:0;color:#666}.react-autosuggest__suggestion--highlighted{background:#ddf1ff;cursor:pointer}.react-autosuggest__suggestion--highlighted mark{background:none;font-weight:500;padding:0}.form-block{display:flex;flex-direction:column;padding:2.5em .5em 0;margin-top:1.5em;border-top:2px solid hsla(0,0%,93%,.5)}.form-block input[type=email],.form-block input[type=number],.form-block input[type=password],.form-block input[type=text],.form-block textarea{width:100%}.form-block:first-child{padding:0 .5em;margin-top:0;border:none}.form-block__header{margin-bottom:1.5em}.form-block__header h3{color:#073648;font-weight:400;font-size:1.4em;margin:0 8px 5px 0;display:inline-block}.form-block__header p,.form-block__header small{margin-bottom:0;color:#999;line-height:1.4;font-size:.9em;margin-top:10px}.form-block__body__row{display:flex}.form-block__body__row>div{flex:1}.form-block__body__row>div+div{padding-left:1.2em}.form-block__actions{margin-top:2em;padding-top:2em;border-top:2px solid #f5f5f5;display:flex;align-items:center}.form-block__actions>div+div{display:flex;margin-left:1.2em}.form-block__inner-wrapper{display:inline-block;position:relative;width:100%}.form-block__inner-wrapper .form-block__error-message{position:absolute;display:block}.form-block__desc{color:#999;line-height:1.4;font-size:.9em;margin-top:-2px}.form-block__auto-suggest-input>label,.form-block__checkboxes>label,.form-block__input>label,.form-block__multi-choice>label,.form-block__rating-scale>label,.form-block__rating-stars>label,.form-block__select>label,.form-block__tags-input>label,.form-block__textarea>label{margin-bottom:8px}.form-block__auto-suggest-input--required,.form-block__checkboxes--required,.form-block__input--required,.form-block__multi-choice--required,.form-block__rating-scale--required,.form-block__rating-stars--required,.form-block__select--required,.form-block__tags-input--required,.form-block__textarea--required{color:#ff7142;margin-left:5px}.form-block__auto-suggest-input--error input,.form-block__auto-suggest-input--error select,.form-block__auto-suggest-input--error textarea,.form-block__checkboxes--error input,.form-block__checkboxes--error select,.form-block__checkboxes--error textarea,.form-block__input--error input,.form-block__input--error select,.form-block__input--error textarea,.form-block__multi-choice--error input,.form-block__multi-choice--error select,.form-block__multi-choice--error textarea,.form-block__rating-scale--error input,.form-block__rating-scale--error select,.form-block__rating-scale--error textarea,.form-block__rating-stars--error input,.form-block__rating-stars--error select,.form-block__rating-stars--error textarea,.form-block__select--error input,.form-block__select--error select,.form-block__select--error textarea,.form-block__tags-input--error input,.form-block__tags-input--error select,.form-block__tags-input--error textarea,.form-block__textarea--error input,.form-block__textarea--error select,.form-block__textarea--error textarea{border-color:#f66}.form-block__checkboxes span,.form-block__input span,.form-block__rating-stars span,.form-block__select span,.form-block__textarea span{color:#666;font-weight:500;font-size:.85em}.form-block__checkboxes span.prepended,.form-block__input span.prepended,.form-block__rating-stars span.prepended,.form-block__select span.prepended,.form-block__textarea span.prepended{margin-right:.4em}.form-block__checkboxes span.appended,.form-block__input span.appended,.form-block__rating-stars span.appended,.form-block__select span.appended,.form-block__textarea span.appended{margin-left:.6em}.form-block__checkboxes,.form-block__multi-choice{display:inline-block}.form-block__checkboxes__item,.form-block__multi-choice__item{display:inline-block;margin-right:1.6em}.form-block__checkboxes__item label,.form-block__multi-choice__item label{color:#666;text-transform:capitalize;display:inline-block}.form-block__checkboxes__item input,.form-block__multi-choice__item input{margin-right:6px;display:inline-block;vertical-align:baseline}.form-block__checkboxes__wrapper{display:flex;flex-wrap:wrap}.form-block__checkboxes__item{display:flex;align-items:center;width:120px;margin-bottom:8px}.form-block__checkboxes__item input{margin-top:0}.form-block__error-message{margin-top:4px;display:inline-block;color:#f66}.form-block__filepicker{position:relative;min-width:130px;display:flex}.form-block__filepicker-preview{border-radius:3px;border:1px solid rgba(0,0,0,.1)}.form-block__filepicker-preview img{height:100%}.form-block__filepicker-input{flex:1;background:#fff;width:130px;border:2px dashed #ddd;color:#888;outline:none}.form-block__filepicker-input:hover{border:2px dashed #ccc;color:#666}.form-block__filepicker-input--minimize{position:absolute;bottom:0;left:0;width:100%;background:rgba(7,54,72,.9);color:#fafafa;border:none;border-radius:2px;padding:4px}.form-block__filepicker-reset{position:absolute;right:12px;top:8px;cursor:pointer;background:#eee;color:#777;width:24px;height:24px;line-height:24px;border-radius:50%;text-align:center;opacity:.7}.form-block__filepicker-reset:hover{opacity:.8}.md-viewer{word-break:break-word}.md-viewer img{margin:0 auto}.md-viewer img.emoji{display:inline}.md-viewer p{color:#444;line-height:32px;margin:0;margin-bottom:26px}.md-viewer p img{display:block;margin:13px auto}.md-viewer p img~br{display:none}.md-viewer p img~em{width:100%;display:block;text-align:center;margin:0 auto 13px;line-height:24px;color:#888;font-size:.75em}.md-viewer p img.md-float--left{float:left;margin-right:20px;margin-bottom:20.8px}.md-viewer p img.md-float--left+em{display:none}.md-viewer p img.md-float--right{float:right;margin-left:20px;margin-bottom:20.8px}.md-viewer p img.md-float--right+em{display:none}.md-viewer p+ul{margin-top:-10px}.md-viewer pre{display:inline-block;width:106%;margin-top:0;margin-left:-3%;padding:1em 1.2em;margin-bottom:31.2px;border:1px solid rgba(222,229,231,.6);border-radius:4px;background-color:#f8f8f8;overflow-x:scroll}.md-viewer pre code{padding:0;color:inherit;line-height:22px;white-space:pre}.md-viewer code{word-break:normal;font-size:15px;padding:4px 6px;background-color:#f8f8f8;border-radius:4px;color:#c7254e}.md-viewer .lazy-image{text-align:center;display:block;margin:0 auto}.md-viewer .lazy-image__preview{margin:0}.md-viewer a{color:#009fc6;cursor:pointer}.md-viewer a:hover{color:#0097bc}.md-viewer a strong{color:#009fc6}.md-viewer h1,.md-viewer h2,.md-viewer h3,.md-viewer h4,.md-viewer h5{color:#333;font-weight:700;line-height:38px;margin-top:6px;margin-bottom:12px}.md-viewer h1 code,.md-viewer h2 code,.md-viewer h3 code,.md-viewer h4 code,.md-viewer h5 code{font-size:.8em}.md-viewer h1{margin:.4em 0;font-size:32px;line-height:42px}.md-viewer h1,.md-viewer h2,.md-viewer h3,.md-viewer h4,.md-viewer h5,.md-viewer h6{position:relative}.md-viewer h1 .header-anchor,.md-viewer h2 .header-anchor,.md-viewer h3 .header-anchor,.md-viewer h4 .header-anchor,.md-viewer h5 .header-anchor,.md-viewer h6 .header-anchor{display:none;position:absolute;padding-right:16px;top:2px;left:-32px}.md-viewer h1:hover .header-anchor,.md-viewer h2:hover .header-anchor,.md-viewer h3:hover .header-anchor,.md-viewer h4:hover .header-anchor,.md-viewer h5:hover .header-anchor,.md-viewer h6:hover .header-anchor{display:block}.md-viewer h1 .header-anchor{top:6px;left:-42px}.md-viewer h2 .header-anchor{left:-40px}.md-viewer h4 .header-anchor{left:-25px}.md-viewer h5 .header-anchor,.md-viewer h6 .header-anchor{left:-15px;top:1px}.md-viewer h4,.md-viewer h5{line-height:34px;margin:0 0 2px}.md-viewer strong{color:#444;font-size:1em;font-weight:600}.md-viewer ol,.md-viewer ul{color:#444;line-height:32px;margin-bottom:26px}.md-viewer ol>li,.md-viewer ul>li{margin-bottom:10px}.md-viewer ol>li>p,.md-viewer ul>li>p{margin-bottom:5px}.md-viewer ul{list-style-type:disc}.md-viewer ol{list-style-type:decimal}.md-viewer li ol,.md-viewer li ul{margin-top:10px;margin-bottom:0}.md-viewer blockquote{border-left:5px solid #eee;display:inline-block;margin:0 0 26px;padding:.6em 1.5em;font-size:1em;position:relative;font-style:italic}.md-viewer blockquote p{color:#757575}.md-viewer blockquote p:last-child{margin-bottom:0}.md-viewer address,.md-viewer cite,.md-viewer dfn,.md-viewer em,.md-viewer var{font-style:italic}.md-viewer hr{border:0;border-top:1px solid #eee;margin-bottom:26px}.md-viewer iframe{width:100%}.md-viewer iframe.cm-gist-iframe{height:100%;max-height:400px;border-radius:4px;border:1px solid #eee}.md-viewer table{padding:0;border-collapse:collapse;margin-bottom:26px}.md-viewer table tr{border-top:1px solid #ccc;background-color:#fff;margin:0;padding:0}.md-viewer table tr td,.md-viewer table tr th{border:1px solid #ccc;text-align:left;margin:0;padding:6px 14px;line-height:24px}.md-viewer table tr th{font-weight:700}.md-viewer table tr td :first-child,.md-viewer table tr th :first-child{margin-top:0}.md-viewer table tr td :last-child,.md-viewer table tr th :last-child{margin-bottom:0}.md-viewer dl{padding:0;margin-bottom:26px}.md-viewer dl dt{font-size:14px;font-weight:700;font-style:italic;padding:0;margin:15px 0 5px}.md-viewer dl dt:first-child{padding:0}.md-viewer dl dt>:first-child{margin-top:0}.md-viewer dl dt>:last-child{margin-bottom:0}.md-viewer dl dd{margin:0 0 15px;padding:0 15px}.md-viewer dl dd>:first-child{margin-top:0}.md-viewer dl dd>:last-child{margin-bottom:0}.md-viewer .md-clearfix{clear:both;visibility:hidden}.md-viewer .emoji{height:1.2em;margin:0 2px;vertical-align:sub}.md-viewer .katex{max-width:100%;overflow-x:scroll;overflow-y:hidden}.md-viewer .katex-html .reset-textstyle .textstyle.uncramped.frac-line{margin-top:18px}.md-viewer .katex-html .reset-textstyle.scriptstyle{margin-top:5px}@media (max-width:640px){.md-viewer h1{font-size:24px;line-height:29px}.md-viewer h2{font-size:20px;line-height:30px}.md-viewer h3{font-size:18px;line-height:27px}.md-viewer h4{font-size:16px;line-height:24px}.md-viewer blockquote{font-size:20px;line-height:30px}.md-viewer p{font-size:16px;line-height:1.5;word-wrap:break-word}.md-viewer p img{width:100%}.md-viewer p img.emoji{width:auto;display:inline}.md-viewer p img.md-float--left,.md-viewer p img.md-float--right{float:none;margin:0 auto}.md-viewer a{word-wrap:break-word}.md-viewer ol,.md-viewer ul{line-height:1.5;font-size:16px;padding-left:20px}.md-viewer iframe{height:240px}}.article{font-size:18px;letter-spacing:.1px;font-weight:400;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}.article__container{display:flex;flex-direction:column;width:90%;max-width:720px;margin:0 auto;position:relative}.article__container--preview{cursor:pointer}.article__draft-label{left:14px;font-size:14px;border-radius:3px;background-color:#8badb4;color:#fff;padding:3px 6px;position:absolute;left:20px;text-transform:capitalize}@media (max-width:640px){.article__draft-label{margin-right:0}}.article__cover-photo{height:300px;margin-bottom:1em;overflow:hidden;display:flex;align-items:center}@media (max-width:640px){.article__cover-photo{height:200px}}.article__header{margin-bottom:.5em;margin-top:1.5em}.article__header__section{flex:1;display:flex}.article__header__section.space-between{margin-bottom:.4em;align-items:center;justify-content:space-between}.article__header__label{margin-right:1em;display:inline-block;border-radius:2px;background:#f2f2f2;padding:.2em .6em;text-decoration:none;font-size:.8em;color:#777}.article__header__timestamps .publish-date{color:#80888a;font-size:.8em}.article__header__timestamps .updated-at{color:hsla(192,4%,52%,.6);margin-left:1em;font-size:.7em}.article__header .author-section{margin-top:1em}.article__header h1{margin-top:.4em;color:#333;font-weight:700;font-size:32px;line-height:42px}@media (max-width:640px){.article__header{word-wrap:break-word;margin-top:1em}.article__header .updated-at{display:none}.article__header .author-section{margin-top:0}.article__header h1{font-size:24px;line-height:29px}.article__header__timestamps{margin-bottom:.6em}.article__header__timestamps .publish-date{font-size:12px}.article__header__section.space-between{flex-direction:column;align-items:flex-start}}.article__body{position:relative}.article__summary{margin-bottom:2em;padding-bottom:1em;position:relative}.article__read-more__wrapper{text-align:center;background:linear-gradient(180deg,hsla(0,0%,100%,0),hsla(0,0%,100%,.66) 25%,hsla(0,0%,100%,.9) 45%,#fff 80%);position:absolute;bottom:0;width:106%;left:-3%;padding:4em 0 2em}.article__read-more{text-transform:uppercase;font-weight:600;border:1px solid #00a3cb;display:inline-block;padding:8px 14px;font-size:16px;border-radius:3px;background:#fff;color:#00a3cb}.article__observer.top{height:1px}.article__infinite-loading__trigger{height:10px}.article .btn-frame-only,.article .btn-heart{height:36px;line-height:36px}.article .btn-frame-only{margin-left:12px}.article__outlet{display:flex;justify-content:center;background:#f3f6f7;flex-direction:column;align-items:center;margin-top:2em}.article__write-post{width:100%;padding:5em 2em;background:#f3f6f7;background:linear-gradient(270deg,#bbebe0,#f0f3e7,#ddf6ff);background-size:200% 200%;animation:b 6s ease infinite}.article__write-post__container{display:flex;margin:0 auto;width:70%}.article__write-post__left{width:40%;display:flex;padding-right:1em;flex-direction:column;justify-content:center;align-items:flex-start}.article__write-post__left p{margin-bottom:1em;font-size:24px;line-height:38px}.article__write-post__left .btn-secondary{font-size:16px;padding:.6em 1.2em}.article__write-post .lazy-image{height:200px;flex:1}.article__write-post.start-discussion .article__write-post__left{width:70%}.article__write-post.start-discussion .lazy-image{height:120px}@media (max-width:900px){.article__write-post__container{width:100%}}@media (max-width:640px){.article__write-post{padding:3em 1em;animation:none}.article__write-post__container{flex-direction:column;align-items:center}.article__write-post.start-discussion .article__write-post__left,.article__write-post__left{width:100%;padding-right:0;margin-bottom:1em;text-align:center;align-items:center}.article__write-post .lazy-image{display:none}}@keyframes b{0%{background-position:0 50%}50%{background-position:100% 50%}to{background-position:0 50%}}.article__related-posts{display:flex;max-width:900px;width:95%;padding:4em 2em}.article__related-posts .related-post{flex:1;padding:1.2em 1em;box-shadow:0 1px 2px 0 rgba(0,0,0,.1);background:#fff;margin:.6em}.article__related-posts .related-post__author{display:flex;align-items:center;color:#5c8899;font-size:.8em;margin-bottom:.6em}.article__related-posts .related-post__author .avatar-img{margin-right:.4em;width:25px;height:25px}.article__related-posts .related-post__title{font-size:.9em;line-height:24px}.article__related-posts .related-post__title a{color:#333}@media (max-width:640px){.article__related-posts{flex-direction:column;padding:3em 1em}}.article__footer{margin-top:1em;display:flex;flex-direction:column}.article__footer .hn-link{color:#1aafd0}.article__footer__prompt{font-size:.8em;display:flex;flex-direction:column;color:#666;margin:0 auto;align-items:center}.article__footer__prompt p{margin-bottom:1em}.article__footer__prompt strong{color:#222}.article__footer__actions{display:flex}.article__footer__separator{width:240px;height:1px;background:hsla(0,0%,89%,.65);margin:1.5em 0}.article__footer__section{display:flex;margin-bottom:1em;justify-content:space-between;align-items:center}.article__footer .article__author{flex:1}@media (max-width:640px){.article__footer__section{margin-bottom:1em;flex-direction:column}}.article__tags{flex:1;display:flex;flex-wrap:wrap;margin-top:.4em;margin-right:1em}.article__tags a.btn--outline{font-size:14px;width:auto;height:30px;line-height:30px;padding:0 .6em;text-transform:none;margin:0 .5em .6em 0;min-height:0;border-color:#e0e0e0;color:#aaa}.article__tags a.btn--outline:hover{color:#666;border-color:#bbb}@media (max-width:640px){.article__tags{margin-bottom:1em;flex-direction:row;width:100%;text-align:center}.article__tags .btn--outline{font-size:14px;display:inline-block;margin-bottom:8px}}.article__report{font-size:.8em;color:#a5a4ab;cursor:pointer}.article__report:hover{color:#666}.article__report i{margin-right:6px}@media (max-width:640px){.article__report{display:none}}.article .article__author{display:flex;align-items:center}.article .article__author .author--avatar{width:100px;height:100px}.article .article__author .author__content{flex:1;margin:0 1em}.article .article__author .author__action{position:relative}.article .article__author .author__name{margin-bottom:.4em;font-weight:600}.article .article__author .author__name a,.article .article__author .author__name span{color:#333}.article .article__author .author__headline{font-size:.9em;color:#444;margin-bottom:.4em;line-height:22px}.article .article__author .author__edit-intro{font-size:.8em;display:block;margin-top:10px;color:#00b5e2}.article .article__author .author__edit-intro:hover{color:#00a3cb}.article .article__author .author__edit-intro:active,.article .article__author .author__edit-intro:focus{color:#0099be}.article .article__author .author__desc{font-size:.8em;line-height:20px;color:#777}.article .article__author .author__desc a{color:#1aafd0;cursor:pointer}@media (max-width:640px){.article .article__author{flex-direction:column}.article .article__author .author__content{margin:1em;text-align:center}.article .article__author .author__avatar,.article .article__author .author__desc{margin-bottom:1em}}.article .article__author--minimized{margin:0;font-size:.9em;width:100%}.article .article__author--minimized .author--avatar{width:45px;height:45px}.article .article__author--minimized .author__content{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin:0;margin-left:.8em}.article .article__author--minimized .author__edit-intro{font-size:.9em;margin-top:0}.article .article__author--minimized .author__name{display:flex;align-items:center;margin-bottom:0}.article .article__author--minimized .author__headline{font-size:13px;margin-bottom:0;color:#80888a;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.article .article__author--minimized .btn-primary,.article .article__author--minimized .btn-primary--outline{min-height:auto;height:21px;padding:2px 12px;margin-left:10px;font-size:12px;width:auto}@media (max-width:640px){.article .article__author--minimized{max-width:90%;flex-direction:row}.article .article__author--minimized .author__content{margin:0;margin-left:.8em;text-align:left}}.article .article-placeholder{animation-duration:1.5s;animation-fill-mode:forwards;animation-iteration-count:infinite;animation-name:c;animation-timing-function:linear;background:linear-gradient(90deg,#f1f1f1 8%,#e4e4e4 18%,#f1f1f1 33%);background-size:1000px 104px;height:98px;position:relative;margin:1em 0 6em}.article .article-placeholder__mask{background:#fff;position:absolute;box-sizing:border-box;top:0;left:0;right:0;height:18px}.article .article-placeholder__mask.header-right{height:28px;left:50%}.article .article-placeholder__mask.header-bottom{top:28px;height:20px}.article .article-placeholder__mask.first-content-right{top:48px;left:95%}.article .article-placeholder__mask.second-content-right{top:80px;left:75%}.article .article-placeholder__mask.first-content-bottom{top:66px;height:14px}@keyframes c{0%{background-position:-500px 0}to{background-position:500px 0}}.article .article__engager{font-size:14px;color:#666}.article .article__engager--fixed{z-index:1;text-align:center;position:fixed;width:180px;right:10px;bottom:30px}.article .article__engager.offset{bottom:90px}.article .article__engager.hidden{display:none}.article .article__engager.fade-in{animation:d .5s}@keyframes d{0%{opacity:0;margin-bottom:-12px}to{opacity:1;margin-bottom:0}}.article .article__engager strong{font-size:1em;color:#333}.article .article__engager a{text-decoration:none}.article .article__engager .engager--avatar{display:none}.article .article__engager .engager__hint{opacity:0;display:flex;align-items:center;flex-direction:column}.article .article__engager .engager__hint--show{opacity:1}.article .article__engager .engager__title{color:#333;margin-bottom:4px;font-weight:700}.article .article__engager .engager__actions{display:flex;align-items:center;justify-content:center}.article .article__engager .engager__actions .btn-frame-only{opacity:1}.article .article__engager .engager__sharing{opacity:0;height:0;transition:all .2s ease-in}.article .article__engager .engager__sharing--show{margin-top:1em;height:auto;opacity:.9}.article .article__engager .engager__sharing .at-share-btn-elements{display:flex;align-items:center;justify-content:center;margin-right:-8px}.article .article__engager .engager__sharing .at-share-btn{border-radius:50%!important}.article .article__engager .engager__hint__text{display:none}@media (max-width:1150px){.article .article__engager--fixed{display:flex!important;z-index:1;right:0;left:0;bottom:0;background-color:#f9fbfb;box-shadow:0 -10px 16px 0 rgba(0,0,0,.1);width:100%}.article .article__engager--fixed.offset{bottom:0}.article .article__engager--fixed .engager-bar__wrapper{width:90%;max-width:760px;display:flex;justify-content:space-between;align-items:center;margin:.6em auto}.article .article__engager--fixed .engager__actions{justify-content:flex-end}.article .article__engager--fixed .engager__hint{opacity:1;flex-direction:row;transform:translateY(0)}.article .article__engager--fixed .engager__hint div,.article .article__engager--fixed .engager__hint p{margin-bottom:0}.article .article__engager--fixed .engager__hint p{margin-top:0}.article .article__engager--fixed .engager__title{margin-right:4px;text-align:left}.article .article__engager--fixed .engager--avatar{display:inline-block;margin-right:10px}.article .article__engager--fixed .engager__comment.btn-frame-only{display:flex}.article .article__engager--fixed .engager__hint__text{display:block}}@media (max-width:640px){.article .article__engager--fixed .engager__hint p{display:none}}.auth-modal .custom-header{margin-bottom:24px}.auth-modal .custom-header .author-avatar{display:inline-block;position:relative;margin-bottom:12px}.auth-modal .custom-header .avatar-icon{position:absolute;bottom:4px;right:-3px;width:18px;height:18px;background-size:contain;background-repeat:no-repeat}.auth-modal .custom-header .avatar-icon__follow{background-image:url(https://lite-cdn.codementor.io/public/static/images/Notification/follow.png?17471e34d60)}.auth-modal .custom-header .avatar-icon__heart{background-image:url(https://lite-cdn.codementor.io/public/static/images/Notification/heart.png?17471e34d60)}.auth-modal .custom-header .avatar-icon__comment{background-image:url(https://lite-cdn.codementor.io/public/static/images/Notification/comment.png?17471e34d60)}.auth-modal .custom-header__description{line-height:1.57;color:#666;white-space:pre-line}
+    </style>
+    <div class="headroom-wrapper">
+     <div class="headroom headroom--unfixed" style="position:relative;top:0;left:0;right:0;z-index:1;-webkit-transform:translateY(0);-ms-transform:translateY(0);transform:translateY(0)">
+      <div class="jsx-881682486 container">
+       <a class="logo" href="/community" title="Codementor">
+        <img class="jsx-881682486 medium-logo" src="https://lite-cdn.codementor.io/static/images/Icons/blue/cm_community_blue.png"/>
+        <img class="jsx-881682486 mini-logo" src="https://lite-cdn.codementor.io/static/images/Icons/blue/icon_cm_v2.png"/>
+       </a>
+       <div class="jsx-881682486 child">
+        <style>
+         .header-menu{width:100%;height:50px;top:0;background:#003648;z-index:1;padding:0 20px;display:flex;align-items:center;justify-content:space-between;box-shadow:1px 0 5px 0 rgba(0,0,0,.15);-webkit-font-smoothing:antialiased}.header-menu.fixed{position:fixed}.header-menu__container{flex:1;display:flex;align-items:center;width:100%;justify-content:space-between;margin:0 auto}.header-menu__logo{height:19px;width:150px;background-image:url(/assets/images/Icons/white/codementor_logo_with_text.png);background-size:100% 100%}.header-menu__right-item{display:flex;align-items:center}.header-menu__right-item .btn,.header-menu__right-item .btn-highlight{font-size:12px;padding:.8em 1.2em;margin-right:20px;min-width:93px}@media (max-width:640px){.header-menu__right-item .btn-highlight{padding:.7em}}.header-menu__right-item .header-menu__signup{font-size:14px;min-width:0;padding:9px 12px}.header-menu__right-item .header-menu__login{color:#fff;font-size:14px;cursor:pointer}.header-menu__right-item .header-menu__login:active,.header-menu__right-item .header-menu__login:hover{opacity:.85}.header-menu__right-item__icon{font-size:16px;color:#fff;cursor:pointer;width:30px;line-height:30px;margin:10px 10px 10px 5px;height:30px;display:flex;align-items:center;justify-content:center}.header-menu__right-item__icon--active{background-color:#002633;box-shadow:inset 0 0 3px #999;border-radius:4px;color:#fff;opacity:.85}.header-menu__right-item__icon:hover{color:#fff;opacity:.85;cursor:pointer}@media (max-width:1180px){.header-menu .navigation{display:none}}@media (max-width:640px){.header-menu{padding-left:12px}.header-menu>a{width:36px;overflow:hidden}.header-menu>a.header-menu__logo-link{width:auto}.header-menu .presence-switch{display:none}.header-menu__right-item{min-width:0;justify-content:flex-end}}.community__menu{color:#999;display:flex;align-items:center;flex:1;position:relative;-webkit-font-smoothing:antialiased}.community__menu a{text-decoration:none}.community__menu li{list-style:none}.community__menu .edit-post,.community__menu .write-a-post{font-size:14px;color:#009fc6;font-weight:700;text-transform:uppercase;text-decoration:none;margin-right:10px;cursor:pointer}.community__menu .edit-post{color:#888}.community__menu__tabs-dropdown.fa{color:rgba(0,54,72,.7);font-size:18px;display:none;cursor:pointer;position:absolute;left:20px;top:0}.community__menu__auth{display:flex}
+        </style>
+        <div class="jsx-1117955809 community__menu">
+         <div class="jsx-1117955809 menu">
+          <ul class="sc-iwsKbI kFnHza">
+           <li class="sc-bxivhb fipCph menu" color="#333333">
+            <a href="/experts" id="">
+             Find Developers &amp; Mentors
+             <span class="sc-htpNat ibectM">
+              <svg height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+               <g fill="none" fill-rule="nonzero">
+                <path d="M0 0h24v24H0z" fill="none">
+                </path>
+                <path d="M2 8.982L3.982 7l7.225 7.226a1.118 1.118 0 0 0 1.585 0L20.018 7 22 8.982l-7.226 7.225A3.892 3.892 0 0 1 12 17.357a3.896 3.896 0 0 1-2.775-1.15L2 8.982z" fill="#000">
+                </path>
+               </g>
+              </svg>
+             </span>
+            </a>
+            <div class="sc-ifAKCX kqycIe">
+             <ul class="sc-bwzfXH SEckX category-groups category-groups--mentor">
+              <li>
+               <div class="group-name">
+                <a href="https://www.codementor.io/experts/web-programming">
+                 Web Programming
+                </a>
+               </div>
+               <ul style="width:130px">
+                <li class="category">
+                 <a href="https://www.codementor.io/angularjs-experts">
+                  AngularJS
+                 </a>
+                </li>
+                <li class="category">
+                 <a href="https://www.codementor.io/aspdot_net-experts">
+                  ASP.NET
+                 </a>
+                </li>
+                <li class="category">
+                 <a href="https://www.codementor.io/django-experts">
+                  Django
+                 </a>
+                </li>
+                <li class="category">
+                 <a href="https://www.codementor.io/express-experts">
+                  Express
+                 </a>
+                </li>
+                <li class="category">
+                 <a href="https://www.codementor.io/html_css-experts">
+                  HTML/CSS
+                 </a>
+                </li>
+                <li class="category">
+                 <a href="https://www.codementor.io/jquery-experts">
+                  jQuery
+                 </a>
+                </li>
+                <li class="category">
+                 <a href="https://www.codementor.io/laravel-experts">
+                  Laravel
+                 </a>
+                </li>
+                <li class="category">
+                 <a href="https://www.codementor.io/nodejs-experts">
+                  Node.js
+                 </a>
+                </li>
+                <li class="category">
+                 <a href="https://www.codementor.io/ruby-on-rails-experts">
+                  Rails
+                 </a>
+                </li>
+                <li class="category">
+                 <a href="https://www.codementor.io/reactjs-experts">
+                  React
+                 </a>
+                </li>
+                <li class="category">
+                 <a href="https://www.codementor.io/redux-experts">
+                  Redux
+                 </a>
+                </li>
+                <li class="category">
+                 <a href="https://www.codementor.io/vue-experts">
+                  Vue.js
+                 </a>
+                </li>
+               </ul>
+              </li>
+              <li>
+               <div class="group-name">
+                <a href="https://www.codementor.io/experts/mobile-app-programming">
+                 Mobile App Programming
+                </a>
+               </div>
+               <ul style="width:initial">
+                <li class="category">
+                 <a href="https://www.codementor.io/android-experts">
+                  Android
+                 </a>
+                </li>
+                <li class="category">
+                 <a href="https://www.codementor.io/ios-experts">
+                  iOS
+                 </a>
+                </li>
+                <li class="category">
+                 <a href="https://www.codementor.io/ionic-experts">
+                  Ionic
+                 </a>
+                </li>
+                <li class="category">
+                 <a href="https://www.codementor.io/kotlin-experts">
+                  Kotlin
+                 </a>
+                </li>
+                <li class="category">
+                 <a href="https://www.codementor.io/reactnative-experts">
+                  React Native
+                 </a>
+                </li>
+                <li class="category">
+                 <a href="https://www.codementor.io/swift-experts">
+                  Swift
+                 </a>
+                </li>
+                <li class="category">
+                 <a href="https://www.codementor.io/xcode-experts">
+                  Xcode
+                 </a>
+                </li>
+               </ul>
+              </li>
+              <li>
+               <div class="group-name">
+                <a href="https://www.codementor.io/experts/coding">
+                 Programming Languages
+                </a>
+               </div>
+               <ul style="width:initial">
+                <li class="category">
+                 <a href="https://www.codementor.io/c_plus_plus-experts">
+                  C++
+                 </a>
+                </li>
+                <li class="category">
+                 <a href="https://www.codementor.io/c_sharp-experts">
+                  C#
+                 </a>
+                </li>
+                <li class="category">
+                 <a href="https://www.codementor.io/c-experts">
+                  C
+                 </a>
+                </li>
+                <li class="category">
+                 <a href="https://www.codementor.io/go-experts">
+                  Golang
+                 </a>
+                </li>
+                <li class="category">
+                 <a href="https://www.codementor.io/java-experts">
+                  Java
+                 </a>
+                </li>
+                <li class="category">
+                 <a href="https://www.codementor.io/javascript-experts">
+                  JavaScript
+                 </a>
+                </li>
+                <li class="category">
+                 <a href="https://www.codementor.io/php-experts">
+                  PHP
+                 </a>
+                </li>
+                <li class="category">
+                 <a href="https://www.codementor.io/python-experts">
+                  Python
+                 </a>
+                </li>
+                <li class="category">
+                 <a href="https://www.codementor.io/r-experts">
+                  R
+                 </a>
+                </li>
+                <li class="category">
+                 <a href="https://www.codementor.io/ruby-experts">
+                  Ruby
+                 </a>
+                </li>
+                <li class="category">
+                 <a href="https://www.codementor.io/typescript-experts">
+                  TypeScript
+                 </a>
+                </li>
+               </ul>
+              </li>
+              <li>
+               <div class="group-name">
+                <a href="https://www.codementor.io/data-science-experts">
+                 Data Science /Engineering
+                </a>
+               </div>
+               <ul style="width:initial">
+                <li class="category">
+                 <a href="https://www.codementor.io/artificial-intelligence-experts">
+                  AI
+                 </a>
+                </li>
+                <li class="category">
+                 <a href="https://www.codementor.io/machine-learning-experts">
+                  Machine Learning
+                 </a>
+                </li>
+                <li class="category">
+                 <a href="https://www.codementor.io/matlab-experts">
+                  Matlab
+                 </a>
+                </li>
+                <li class="category">
+                 <a href="https://www.codementor.io/tableau-experts">
+                  Tableau
+                 </a>
+                </li>
+                <li class="category">
+                 <a href="https://www.codementor.io/tensorflow-experts">
+                  Tensorflow
+                 </a>
+                </li>
+               </ul>
+              </li>
+              <li>
+               <div class="group-name">
+                <a href="https://www.codementor.io/experts/devops">
+                 Database /Operations
+                </a>
+               </div>
+               <ul style="width:initial">
+                <li class="category">
+                 <a href="https://www.codementor.io/amazon-web-services-experts">
+                  AWS
+                 </a>
+                </li>
+                <li class="category">
+                 <a href="https://www.codementor.io/database-experts">
+                  Database
+                 </a>
+                </li>
+                <li class="category">
+                 <a href="https://www.codementor.io/docker-experts">
+                  Docker
+                 </a>
+                </li>
+                <li class="category">
+                 <a href="https://www.codementor.io/google-cloud-platform-experts">
+                  GCP
+                 </a>
+                </li>
+                <li class="category">
+                 <a href="https://www.codementor.io/heroku-experts">
+                  Heroku
+                 </a>
+                </li>
+                <li class="category">
+                 <a href="https://www.codementor.io/linux-experts">
+                  Linux
+                 </a>
+                </li>
+                <li class="category">
+                 <a href="https://www.codementor.io/mongodb-experts">
+                  MongoDB
+                 </a>
+                </li>
+                <li class="category">
+                 <a href="https://www.codementor.io/mysql-experts">
+                  MySQL
+                 </a>
+                </li>
+                <li class="category">
+                 <a href="https://www.codementor.io/postgresql-experts">
+                  Postgres
+                 </a>
+                </li>
+                <li class="category">
+                 <a href="https://www.codementor.io/sql-experts">
+                  SQL
+                 </a>
+                </li>
+               </ul>
+              </li>
+              <li>
+               <div class="group-name">
+                <a href="https://www.codementor.io/experts/development-process">
+                 Others
+                </a>
+               </div>
+               <ul style="width:initial">
+                <li class="category">
+                 <a href="https://www.codementor.io/arduino-experts">
+                  Arduino
+                 </a>
+                </li>
+                <li class="category">
+                 <a href="https://www.codementor.io/bash-experts">
+                  Bash
+                 </a>
+                </li>
+                <li class="category">
+                 <a href="https://www.codementor.io/electron-experts">
+                  Electron
+                 </a>
+                </li>
+                <li class="category">
+                 <a href="https://www.codementor.io/firebase-experts">
+                  Firebase
+                 </a>
+                </li>
+                <li class="category">
+                 <a href="https://www.codementor.io/game-programming-experts">
+                  Game
+                 </a>
+                </li>
+                <li class="category">
+                 <a href="https://www.codementor.io/git-experts">
+                  Git
+                 </a>
+                </li>
+                <li class="category">
+                 <a href="https://www.codementor.io/raspberry-pi-experts">
+                  Rasberry Pi
+                 </a>
+                </li>
+                <li class="category">
+                 <a href="https://www.codementor.io/selenium-webdriver-experts">
+                  Selenium WebDriver
+                 </a>
+                </li>
+                <li class="category">
+                 <a href="https://www.codementor.io/stripe-experts">
+                  Stripe
+                 </a>
+                </li>
+                <li class="category">
+                 <a href="https://www.codementor.io/unity3d-experts">
+                  Unity 3D
+                 </a>
+                </li>
+                <li class="category">
+                 <a href="https://www.codementor.io/visual-studio-experts">
+                  Visual Studio
+                 </a>
+                </li>
+                <li class="category">
+                 <a href="https://www.codementor.io/wordpress-experts">
+                  WordPress
+                 </a>
+                </li>
+               </ul>
+              </li>
+             </ul>
+            </div>
+           </li>
+           <li class="sc-bxivhb fipCph menu" color="#333333">
+            <a id="">
+             Learning Center
+             <span class="sc-htpNat ibectM">
+              <svg height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+               <g fill="none" fill-rule="nonzero">
+                <path d="M0 0h24v24H0z" fill="none">
+                </path>
+                <path d="M2 8.982L3.982 7l7.225 7.226a1.118 1.118 0 0 0 1.585 0L20.018 7 22 8.982l-7.226 7.225A3.892 3.892 0 0 1 12 17.357a3.896 3.896 0 0 1-2.775-1.15L2 8.982z" fill="#000">
+                </path>
+               </g>
+              </svg>
+             </span>
+            </a>
+            <div class="sc-ifAKCX kqycIe">
+             <div class="sc-bZQynM iplpgg menu">
+              <div class="menu__left">
+               <a class="menu__item" href="/blog">
+                <svg height="48" viewbox="0 0 48 48" width="48" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                 <g fill="none" fill-rule="evenodd">
+                  <g transform="translate(-30 -30)">
+                   <use fill="#000" filter="url(#BlogIcon_a)" xlink:href="#BlogIcon_b">
+                   </use>
+                   <use fill="#FFF" xlink:href="#BlogIcon_b">
+                   </use>
+                   <use fill="#000" filter="url(#BlogIcon_c)" xlink:href="#BlogIcon_b">
+                   </use>
+                  </g>
+                  <path d="M0 0h48v48H0z">
+                  </path>
+                  <path d="M40 14h-4v3.5a1.5 1.5 0 0 1-1.5 1.5h-17a1.5 1.5 0 0 1-1.5-1.5v-6a1.5 1.5 0 0 1 1.5-1.5H32V6H12v32h28V14zm-.828-2L34 6.828V11.5a.5.5 0 0 0 .5.5h4.672zM32 11H17.5a.5.5 0 0 0-.5.5v6a.5.5 0 0 0 .5.5h17a.5.5 0 0 0 .5-.5V14h-.5a2.5 2.5 0 0 1-2.5-2.5V11zm4 29H11.5a1.5 1.5 0 0 1-1.5-1.5V10H8v32h28v-2zm2 0v2.5a1.5 1.5 0 0 1-1.5 1.5h-29A1.5 1.5 0 0 1 6 42.5v-33A1.5 1.5 0 0 1 7.5 8H10V5.5A1.5 1.5 0 0 1 11.5 4h21.879a1.5 1.5 0 0 1 1.06.44l7.122 7.12A1.5 1.5 0 0 1 42 12.622V38.5a1.5 1.5 0 0 1-1.5 1.5H38zM16 22.5a.5.5 0 0 1 .5-.5h19a.5.5 0 1 1 0 1h-19a.5.5 0 0 1-.5-.5zm0 5a.5.5 0 0 1 .5-.5h19a.5.5 0 1 1 0 1h-19a.5.5 0 0 1-.5-.5zm0 5a.5.5 0 0 1 .5-.5h19a.5.5 0 1 1 0 1h-19a.5.5 0 0 1-.5-.5z" fill="#005672" fill-rule="nonzero">
+                  </path>
+                 </g>
+                </svg>
+                <div class="menu__item__info">
+                 <div class="menu__title">
+                  Blog
+                 </div>
+                 <div class="menu__description">
+                  Get insights on scaling, management, and product development for founders and engineering managers.
+                 </div>
+                </div>
+               </a>
+               <a class="menu__item" href="/community/trending">
+                <svg height="42" viewbox="0 0 42 42" width="42" xmlns="http://www.w3.org/2000/svg">
+                 <g fill="none" fill-rule="evenodd">
+                  <path d="M-3-3h48v48H-3z">
+                  </path>
+                  <path d="M32 25.636l8.721 8.721a1.5 1.5 0 0 1 0 2.122L36.48 40.72a1.5 1.5 0 0 1-2.122 0L29.636 36H8v-.135a1.5 1.5 0 0 1-.44-.304L.44 28.439A1.5 1.5 0 0 1 .134 28H0V1.5A1.5 1.5 0 0 1 1.5 0h29A1.5 1.5 0 0 1 32 1.5v24.136zm-2-2V2H2v24h5.5a2.5 2.5 0 0 1 2.5 2.5V34h17.636l-9.543-9.543-2.268-5.355a2.5 2.5 0 0 1 3.277-3.277l5.355 2.268L30 23.636zM2.828 28L8 33.172V28.5a.5.5 0 0 0-.5-.5H2.828zM6 8.5a.5.5 0 0 1 .5-.5h19a.5.5 0 1 1 0 1h-19a.5.5 0 0 1-.5-.5zm0 6a.5.5 0 0 1 .5-.5h7.004a.5.5 0 1 1 0 1H6.5a.5.5 0 0 1-.5-.5zm0 6a.5.5 0 0 1 .5-.5h7.004a.5.5 0 1 1 0 1H6.5a.5.5 0 0 1-.5-.5zm14.568 3.603L33.914 37.45l3.536-3.536-13.347-13.346-3.535 3.535zm-.707-.707l3.535-3.535-.078-.078-4.996-2.117a.5.5 0 0 0-.656.656l2.117 4.996.078.078zm14.76 14.76l.797.797 3.535-3.535-.796-.797-3.536 3.536z" fill="#005672" fill-rule="nonzero">
+                  </path>
+                 </g>
+                </svg>
+                <div class="menu__item__info">
+                 <div class="menu__title">
+                  Community Posts
+                 </div>
+                 <div class="menu__description">
+                  Read programming tutorials, share your knowledge, and become better developers together.
+                 </div>
+                </div>
+               </a>
+              </div>
+              <div class="menu__right menu__item">
+               <svg height="42" viewbox="0 0 41 42" width="41" xmlns="http://www.w3.org/2000/svg">
+                <g fill="none" fill-rule="evenodd">
+                 <path d="M-4-3h48v48H-4z">
+                 </path>
+                 <path d="M25.06 27.475l-1.585-1.586A14.438 14.438 0 0 1 14.5 29C6.492 29 0 22.508 0 14.5S6.492 0 14.5 0 29 6.492 29 14.5c0 3.899-1.539 7.438-4.042 10.044l1.517 1.517a1.5 1.5 0 0 1 2.121 0L39.91 37.374a1.5 1.5 0 0 1 0 2.122l-1.414 1.414a1.5 1.5 0 0 1-2.122 0L25.061 29.596a1.5 1.5 0 0 1 0-2.121zM14.5 27C21.404 27 27 21.404 27 14.5S21.404 2 14.5 2 2 7.596 2 14.5 7.596 27 14.5 27zm22.935 12.142l.707-.707-10.606-10.607-.708.708 10.607 10.606zM3.983 14.5a.5.5 0 1 1 1 0c0 4.773 3.478 9.522 9.517 9.522a.5.5 0 1 1 0 1c-6.671 0-10.517-5.252-10.517-10.522z" fill="#005672" fill-rule="nonzero">
+                 </path>
+                </g>
+               </svg>
+               <div>
+                <div class="menu__title">
+                 Hot Topics
+                </div>
+                <ul>
+                 <li class="menu__topic">
+                  <a href="/community/topic/android">
+                   Android
+                  </a>
+                 </li>
+                 <li class="menu__topic">
+                  <a href="/community/topic/angularjs">
+                   Angular
+                  </a>
+                 </li>
+                 <li class="menu__topic">
+                  <a href="/community/topic/ios">
+                   iOS
+                  </a>
+                 </li>
+                 <li class="menu__topic">
+                  <a href="/community/topic/javascript">
+                   JavaScript
+                  </a>
+                 </li>
+                 <li class="menu__topic">
+                  <a href="/community/topic/nodejs">
+                   Node.js
+                  </a>
+                 </li>
+                 <li class="menu__topic">
+                  <a href="/community/topic/python">
+                   Python
+                  </a>
+                 </li>
+                 <li class="menu__topic">
+                  <a href="/community/topic/reactjs">
+                   React
+                  </a>
+                 </li>
+                 <li class="menu__topic">
+                  <a href="/community/topic/blockchain">
+                   Blockchain
+                  </a>
+                 </li>
+                 <li class="menu__topic">
+                  <a href="/community/topic/ethereum">
+                   Ethereum
+                  </a>
+                 </li>
+                </ul>
+               </div>
+              </div>
+             </div>
+            </div>
+           </li>
+          </ul>
+         </div>
+         <div class="jsx-2571380363 menu-search">
+          <div class="jsx-2571380363 menu-search__trigger">
+           <i aria-hidden="true" class="jsx-2571380363 fa fa-search">
+           </i>
+          </div>
+          <input class="jsx-2571380363" placeholder="Search post" type="text" value=""/>
+         </div>
+         <a class="jsx-1117955809 write-a-post">
+          Write a post
+         </a>
+        </div>
+       </div>
+       <div class="jsx-881682486 settings">
+        <div class="jsx-27858251 right-nav">
+         <div class="jsx-27858251 right-nav__wide">
+          <div class="jsx-27858251 right-nav__wide__link signup-btn">
+           SIGN UP
+          </div>
+          <a class="jsx-27858251 right-nav__wide__link" href="https://arc.dev/login?service=codementor&amp;to=https%3A%2F%2Fwww.codementor.io%2Fcommunity">
+           LOG IN
+          </a>
+         </div>
+         <div class="jsx-27858251 right-nav__mini">
+          <div class="sc-htoDjs cKAvma dropdown-menu">
+           <div class="sc-gzVnrw hOFAbB dropdown-menu__icon">
+            <span>
+            </span>
+           </div>
+           <div class="sc-dnqmqq ektknp">
+            <a class="sc-EHOje gdEuyj menu-item" href="/experts">
+             Find Developers &amp; Mentors
+            </a>
+            <a class="sc-EHOje gdEuyj menu-item" href="/community">
+             Community Post
+            </a>
+            <a class="sc-EHOje gdEuyj menu-item" href="/blog">
+             Blog
+            </a>
+            <a class="sc-EHOje gdEuyj menu-item">
+             SIGN UP
+            </a>
+            <a class="sc-EHOje gdEuyj menu-item">
+             LOG IN
+            </a>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="article__container">
+     <div class="article__header">
+      <div class="article__header__section author-section">
+       <div class="article__author article__author--minimized">
+        <div class="jsx-617897676 avatar-img">
+        </div>
+        <div class="author__content">
+         <div class="author__name">
+          <a href="/@npostolovski">
+           Tash Postolovski
+          </a>
+          <div class="author__action">
+           <div class="btn-primary--outline">
+            Follow
+           </div>
+          </div>
+         </div>
+         <div class="author__headline" title="Software developer and Psychology student.">
+          Software developer and Psychology student.
+         </div>
+        </div>
+       </div>
+      </div>
+      <h1>
+       40 Side Project Ideas for Software Engineers
+      </h1>
+      <div class="article__header__section space-between">
+       <div class="article__header__timestamps">
+        <small class="publish-date">
+         Published
+         <!-- -->
+         Feb 01, 2018
+        </small>
+        <small class="updated-at">
+         Last updated
+         <!-- -->
+         Jul 30, 2018
+        </small>
+       </div>
+      </div>
+     </div>
+     <div class="lazy-image article__cover-photo">
+      <div class="lazy-image__progressive">
+       <img alt="40 Side Project Ideas for Software Engineers " class="lazy-image__progressive__preview" src="https://process.filestackapi.com/cache=expiry:max/resize=width:20/1L1wbcCQg2ngajmOjHZV"/>
+       <div class="lazyload-placeholder" style="height:200px">
+       </div>
+      </div>
+     </div>
+     <div class="article__body">
+      <div class="article__content">
+       <div class="md-viewer">
+        <p>
+         One of the most important ways to develop your skills and improve your employability as a software engineer is to work on side projects. These can run the gamut from open source projects to helpful tools and scripts, to fun toys.
+        </p>
+        <p>
+         While some of our colleagues always seem to be working on a new side project, it’s not so easy for the rest of us. We
+         <em>
+          want
+         </em>
+         to work on a side project but struggle to come up with a good idea.
+        </p>
+        <p>
+         In my experience, this happens when we  subconsciously artificially restrict ourselves. For example, we may unintentionally limit the types of projects that we feel are ‘worthy’ as side projects.
+        </p>
+        <p>
+         By setting the bar too high — like aiming to create a successful, popular, and original open source library — we rob ourselves of the opportunity to have fun and learn something from a less ambitious, but still worthwhile, side project.
+        </p>
+        <p>
+         In this post, I want to help fight “side project paralysis” by offering up 40 side project ideas that any software developer can start in one weekend. The emphasis here is not on projects that are going to change the world. Instead, these are fun projects to give you something to add to your portfolio
+         <strong>
+          and
+         </strong>
+         make you a better developer.
+        </p>
+        <h2 id="computer-science-side-projects">
+         <a aria-hidden="true" class="header-anchor" href="#computer-science-side-projects">
+          <i aria-hidden="true" class="fa fa-link">
+          </i>
+         </a>
+         <strong>
+          Computer Science Side Projects
+         </strong>
+        </h2>
+        <p>
+         <em>
+          These projects are suited for engineers trying to beef up their computer science fundamentals. They’ll help you learn more about specific aspects of computing, like file transfer and operating systems design. These projects can be particularly useful for self-taught developers who’ve focused more on practical skills than comp sci fundamentals.
+         </em>
+        </p>
+        <ol>
+         <li>
+          <p>
+           <strong>
+            FTP Client
+           </strong>
+           (suggested implementation: web, desktop or CLI app).
+           <br/>
+           Build a simple FTP client. As a bonus challenge, support secure file transfer.
+          </p>
+         </li>
+         <li>
+          <p>
+           <strong>
+            HTTP Server
+           </strong>
+           (suggested implementation: any programming language you want to master). To understand HTTP deeply, build an HTTP server. There are a number of
+           <a href="https://ruslanspivak.com/lsbaws-part1/" rel="nofollow noopener" target="_blank">
+            tutorials
+           </a>
+           available to guide you through the process.
+          </p>
+         </li>
+         <li>
+          <p>
+           <strong>
+            Build a simple operating system
+           </strong>
+           (suggested implementation: any programming language you want to master). This is a project that is technically challenging and will deepen your understanding of how computers and operating systems work. You might wish to start with the free (and cleverly named) book,
+           <a href="https://tuhdo.github.io/os01/" rel="nofollow noopener" target="_blank">
+            Operating Systems: From 0 to 1
+           </a>
+           .
+          </p>
+         </li>
+         <li>
+          <p>
+           <strong>
+            Build a web scraper
+           </strong>
+           (suggested implementation: any programming language you want to master). Build a tool that takes a URL as input and returns the content of the URL as HTML or XML.
+          </p>
+         </li>
+         <li>
+          <p>
+           <strong>
+            Bandwidth monitor
+           </strong>
+           (suggested implementation: live updating CLI tool). Build a tool to track how much data you have downloaded or uploaded on the internet. Have it email you a weekly report of your usage. As a bonus challenge, predict peak usage times.
+          </p>
+         </li>
+         <li>
+          <p>
+           <strong>
+            Implement a cipher
+           </strong>
+           (suggested implementation: any programming language you want to master). Build a tool that takes a string of text as input and encrypts it using a cipher, such as the
+           <a href="https://en.wikipedia.org/wiki/Caesar_cipher" rel="nofollow noopener" target="_blank">
+            Caesar cipher
+           </a>
+           .
+          </p>
+         </li>
+         <li>
+          <p>
+           <strong>
+            Create a text message downtime alerter
+           </strong>
+           (suggested implementation: app hooked up to the
+           <a href="https://www.twilio.com/docs/api/rest" rel="nofollow noopener" target="_blank">
+            Twilio API
+           </a>
+           for sending text messages). Create an app that takes a URL as input and sends you a text message when a request to the URL returns a response code other than 200 (OK).
+          </p>
+         </li>
+        </ol>
+        <h2 id="personal-finance-side-projects">
+         <a aria-hidden="true" class="header-anchor" href="#personal-finance-side-projects">
+          <i aria-hidden="true" class="fa fa-link">
+          </i>
+         </a>
+         <strong>
+          Personal Finance Side Projects
+         </strong>
+        </h2>
+        <p>
+         <em>
+          These projects will help you achieve a practical goal (get a better handle on your finances), while also improving your software engineering skills.
+         </em>
+        </p>
+        <ol start="8">
+         <li>
+          <p>
+           <strong>
+            A net worth calculator and tracker
+           </strong>
+           (suggested implementation: CLI, web, or mobile app). Build a calculator you can use to track the rise or fall of your net worth on a monthly basis. You can use something like this
+           <a href="http://www.schwabmoneywise.com/public/file/P-4038856/Net-Worth-Worksheet.pdf" rel="nofollow noopener" target="_blank">
+            net worth worksheet
+           </a>
+           from Charles Schwab to guide you. Optional extension: have it send you a 12 month report for the previous year on the first of January each year.
+          </p>
+         </li>
+         <li>
+          <p>
+           <strong>
+            A tax forecaster
+           </strong>
+           (suggested implementation: web app). This will be particularly useful if you do any freelance software engineering. Build a tool that takes your freelance earnings as input and then predicts your expected tax liability for the rest of the financial year. Make it smart enough to predict periods of higher or lower demand for your services, and adjust accordingly.
+          </p>
+         </li>
+         <li>
+          <p>
+           <strong>
+            A deal finder
+           </strong>
+           (suggested implementation: web app with mobile notifications). Build a simple web app to notify you when an item you covet goes on sale for a good price. You could use a web scraper to pull the item’s product page and notify you of any price changes.
+          </p>
+         </li>
+         <li>
+          <p>
+           <strong>
+            An expense tracker
+           </strong>
+           (suggested implementation: web or mobile app). Create a simple interface you can use to add and categorize your expenses. Generate monthly reports based on the inputs and write custom alerts for things, like, “spending too much money on coffee… as always.”
+          </p>
+         </li>
+         <li>
+          <p>
+           <strong>
+            A financial independence calculator
+           </strong>
+           (suggested implementation: web app).
+           <a href="https://www.reddit.com/r/financialindependence/" rel="nofollow noopener" target="_blank">
+            Financial independence
+           </a>
+           is, essentially, saving and investing as much of your income as possible so that you don’t
+           <em>
+            need
+           </em>
+           to work for money. While many financially independent people continue to work, they can now focus on doing work that they love, rather than work that pays the most. Build a tool to calculate, based on your: current savings, investments, income, retirement accounts, and expenses, how far away you are from financial independence. Some examples:
+           <a href="https://www.firecalc.com/" rel="nofollow noopener" target="_blank">
+            FIREcalc
+           </a>
+           ,
+           <a href="http://www.cfiresim.com/" rel="nofollow noopener" target="_blank">
+            cFIREsim
+           </a>
+           .
+          </p>
+         </li>
+         <li>
+          <p>
+           <strong>
+            A bill splitter
+           </strong>
+           (suggested implementation: mobile app). Build a simple tool to help you and your friends split bills when you go out to eat together.
+          </p>
+         </li>
+        </ol>
+        <h2 id="games-and-simulation-side-projects">
+         <a aria-hidden="true" class="header-anchor" href="#games-and-simulation-side-projects">
+          <i aria-hidden="true" class="fa fa-link">
+          </i>
+         </a>
+         <strong>
+          Games and Simulation Side Projects
+         </strong>
+        </h2>
+        <p>
+         <em>
+          Most software engineers I know are fascinated by the world of game development, graphics, and simulations, but don’t have a lot of experience with them. These projects are small enough that you can set foot into this world without biting off more than you can chew.
+         </em>
+        </p>
+        <ol start="14">
+         <li>
+          <p>
+           <strong>
+            A random name generator
+           </strong>
+           (suggested implementation: CLI, web, or mobile app). Build a random name generator (
+           <a href="https://www.behindthename.com/random/" rel="nofollow noopener" target="_blank">
+            example
+           </a>
+           ) that creates unique names on the fly, based on an algorithm. Use machine learning techniques to help you by training the program with a sample data set of names similar to those you want to generate. Otherwise, create your own lexical rules for how names are generated. For example, a name generating algorithm inspired by
+           <a href="https://en.wikipedia.org/wiki/The_Handmaid%27s_Tale" rel="nofollow noopener" target="_blank">
+            The Handmaid's Tale
+           </a>
+           might stipulate that names for Handmaid women should start with 'Of', and end with a random male name, e.g., Ofpeter.
+          </p>
+         </li>
+         <li>
+          <p>
+           <strong>
+            <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life" rel="nofollow noopener" target="_blank">
+             Conway’s Game of Life
+            </a>
+           </strong>
+           (suggested implementation: any platform capable of real-time graphical rendering). Conway’s Game of Life simulates the lives of simple cells that obey algorithmic laws. This video explains how the game works and includes an example of one possible result:
+          </p>
+         </li>
+        </ol>
+        <p>
+         <a class="cm-embed" data-card-controls="0" href="https://www.youtube.com/watch?v=C2vgICfQawE&amp;feature=player_embedded">
+          epic conway's game of life
+         </a>
+        </p>
+        <ol start="16">
+         <li>
+          <p>
+           <strong>
+            A procedurally generated map maker
+           </strong>
+           (suggested implementation: browser-based app). Create a browser-based application that allows users to procedurally generate a terrain map based on a random seed. The map can be as detailed or as simple as you’d like. This project is a good opportunity to learn about
+           <a href="https://en.wikipedia.org/wiki/Procedural_generation" rel="nofollow noopener" target="_blank">
+            procedural generation
+           </a>
+           .
+          </p>
+         </li>
+         <li>
+          <p>
+           <strong>
+            A character generator
+           </strong>
+           (suggested implementation: browser-based or mobile app, CLI). Create a tool that allows you to randomly generate playable characters for your favorite role-playing games, whether they be tabletop games, like Pathfinder, or video games, like Divinity: Original Sin.
+          </p>
+         </li>
+         <li>
+          <p>
+           <strong>
+            Interactive fiction
+           </strong>
+           (suggested implementation: CLI). A fun way to get into game development without having to worry about graphical assets, interactive fiction renders the world for the player through text descriptions.
+           <a href="http://eblong.com/zarf/zweb/dreamhold/" rel="nofollow noopener" target="_blank">
+            The Dreamhold
+           </a>
+           is a good example of interactive fiction with a useful ‘help’ command.
+          </p>
+         </li>
+        </ol>
+        <h2 id="artificial-intelligence-side-projects">
+         <a aria-hidden="true" class="header-anchor" href="#artificial-intelligence-side-projects">
+          <i aria-hidden="true" class="fa fa-link">
+          </i>
+         </a>
+         <strong>
+          Artificial Intelligence Side Projects
+         </strong>
+        </h2>
+        <p>
+         <em>
+          AI’s usefulness in day-to-day software engineering is increasing by leaps and bounds. It’s now easier than ever before to make your first forays into the world of Artificial Intelligence.
+         </em>
+        </p>
+        <ol start="19">
+         <li>
+          <p>
+           <strong>
+            An unbeatable Tic-Tac-Toe engine
+           </strong>
+           (suggested implementation: CLI program). For an excellent first AI project, try to write an engine that cannot be beaten at Tic-Tac-Toe. You can achieve this by implementing this
+           <a href="https://en.wikipedia.org/wiki/Tic-tac-toe#Strategy" rel="nofollow noopener" target="_blank">
+            strategy
+           </a>
+           , which produces a draw as its worst-case outcome.
+          </p>
+         </li>
+         <li>
+          <p>
+           <strong>
+            A chess engine
+           </strong>
+           (suggested implementation: an engine written in a programming language you want to learn, or master). Try to write an engine that can play chess against a human opponent using a
+           <a href="http://wbec-ridderkerk.nl/html/UCIProtocol.html" rel="nofollow noopener" target="_blank">
+            Universal Chess Interface
+           </a>
+           compatible GUI, such as XBoard. See
+           <a href="https://github.com/official-stockfish/Stockfish" rel="nofollow noopener" target="_blank">
+            Stockfish
+           </a>
+           as an example. For a less daunting challenge, you may wish to focus on the behavior of just one piece, e.g., Knights.
+          </p>
+         </li>
+         <li>
+          <p>
+           <strong>
+            A niche chatbot
+           </strong>
+           (suggested implementation: web app). Some of the greatest minds in the world are working on chatbots that respond in lifelike ways. It’s an incredibly difficult challenge, but, by reducing the scope of your chatbot, you have a side project that is more approachable for evenings and weekends. Create a chatbot that produces real-sounding responses based on a niche topic that you’re passionate about: your favorite band, video game, sports team, or TV show. Leverage an existing library to help you, such as
+           <a href="https://github.com/gunthercox/ChatterBot" rel="nofollow noopener" target="_blank">
+            ChatterBot
+           </a>
+           .
+          </p>
+         </li>
+         <li>
+          <p>
+           <strong>
+            A spam classifier
+           </strong>
+           (suggested implementation: any programming language you want to master). Build a tool to classify whether an email is or isn’t spam based on the content alone. You can use this
+           <a href="https://www.kaggle.com/wcukierski/enron-email-dataset" rel="nofollow noopener" target="_blank">
+            public data set of emails from the Enron investigation
+           </a>
+           to test your spam classifier.
+          </p>
+         </li>
+        </ol>
+        <h2 id="entertainment-side-projects">
+         <a aria-hidden="true" class="header-anchor" href="#entertainment-side-projects">
+          <i aria-hidden="true" class="fa fa-link">
+          </i>
+         </a>
+         <strong>
+          Entertainment Side Projects
+         </strong>
+        </h2>
+        <p>
+         <em>
+          These projects are for software engineers who want to work on something fun and light-hearted.
+         </em>
+        </p>
+        <ol start="23">
+         <li>
+          <p>
+           <strong>
+            A movie showtime finder
+           </strong>
+           (suggested implementation: web or mobile app with email or text message notifications). Build a program that notifies you, by text or email, about showtimes for potentially interesting movies playing at your favorite cinema. The concept of an 'interesting movie' can be derived using machine learning (if you watch enough movies to have good training data), or a handcrafted algorithm. For example, you might use the
+           <a href="http://www.omdbapi.com/" rel="nofollow noopener" target="_blank">
+            Open Movie Database API
+           </a>
+           , paired with an HTML parser like
+           <a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/" rel="nofollow noopener" target="_blank">
+            BeautifulSoup
+           </a>
+           , to build a program that alerts you to sci-fi movies rated 7.0 or above on IMDB, movies starring Amy Adams, and/or any movie with an average rating of 8.0 or higher.
+          </p>
+         </li>
+         <li>
+          <p>
+           <strong>
+            A spoiler blocker
+           </strong>
+           (suggested implementation: browser extension). Short of implementing a total social media/internet/watercooler chat ban, it can be difficult to avoid seeing spoilers for your favorite TV show… especially if that TV show is as popular as Game of Thrones. Create a browser extension that removes all mentions of your favorite show from any webpage loaded in your browser… or replaces them with cute pictures of puppies.
+          </p>
+         </li>
+        </ol>
+        <h2 id="fun-side-projects">
+         <a aria-hidden="true" class="header-anchor" href="#fun-side-projects">
+          <i aria-hidden="true" class="fa fa-link">
+          </i>
+         </a>
+         <strong>
+          Fun Side Projects
+         </strong>
+        </h2>
+        <p>
+         <em>
+          These projects are all different, from logging sensor data to finding new desktop backgrounds for your computer. One thing they all have in common is that they’re fun, and several of them will have you work with interesting APIs.
+         </em>
+        </p>
+        <ol start="25">
+         <li>
+          <p>
+           <strong>
+            Pixel art generator
+           </strong>
+           (suggested implementation: any programming language you want to master). Build a tool that takes an image as input and samples the image to produce pixel art as output. If you want to improve your front-end skills, generate the resulting pixel art using CSS.
+          </p>
+         </li>
+         <li>
+          <p>
+           <strong>
+            Music suggestion tool
+           </strong>
+           (suggested implementation: build a wrapper for the
+           <a href="https://developer.spotify.com/web-api/get-the-users-currently-playing-track/" rel="nofollow noopener" target="_blank">
+            Spotify API
+           </a>
+           ). Create a tool that tracks the music you listen to and generates a playlist with similar qualities, but of songs you haven’t heard before. The Spotify API provides all of the tools needed to extract what you’ve listened to and create a playlist — the recommendation engine is up to you!
+          </p>
+         </li>
+         <li>
+          <p>
+           <strong>
+            Temperature logger
+           </strong>
+           (suggested implementation: Raspberry Pi, temperature sensor, web app). Have your Raspberry Pi hooked up to a temperature sensor and send temperature data from your home to a web app that saves the data to a database or updates a CSV file. For bonus points, have a weekly temperature report emailed to you. Other Raspberry Pi projects:
+           <a href="https://electronicsofthings.com/videos/home-automation-hand-gesture/" rel="nofollow noopener" target="_blank">
+            home automation
+           </a>
+           ,
+           <a href="https://electronicsforu.com/electronics-projects/iot-video-surveillance-raspberry-pi" rel="nofollow noopener" target="_blank">
+            home security
+           </a>
+           .
+          </p>
+         </li>
+         <li>
+          <p>
+           <strong>
+            Microlearning app
+           </strong>
+           (suggested implementation: web or mobile app). Build an application that sends you one page per day about something you want to learn. This could be a random page from Wikipedia, a page of
+           <a href="https://reactjs.org/docs/hello-world.html" rel="nofollow noopener" target="_blank">
+            React
+           </a>
+           documentation, a
+           <a href="https://jisho.org/" rel="nofollow noopener" target="_blank">
+            Kanji
+           </a>
+           character, or a page from the
+           <a href="https://www.cia.gov/library/publications/the-world-factbook/" rel="nofollow noopener" target="_blank">
+            CIA World Factbook
+           </a>
+           .
+          </p>
+         </li>
+         <li>
+          <p>
+           <strong>
+            Slack bot
+           </strong>
+           (suggested implementation:
+           <a href="https://api.slack.com/" rel="nofollow noopener" target="_blank">
+            Slack API
+           </a>
+           ). If you or your team use the popular chat app Slack, build a bot to make some aspect of your (or your team’s) life easier. Ideas: a coffee order bot, a bot that reports daily on the number of commits made to your team repos, or a daily stand-up reminder bot.
+          </p>
+         </li>
+         <li>
+          <p>
+           <strong>
+            Daily desktop background
+           </strong>
+           (suggested implementation:
+           <a href="https://unsplash.com/developers" rel="nofollow noopener" target="_blank">
+            Unsplash API
+           </a>
+           , scripting language for your OS). Build an app that refreshes your desktop background with a new image every day.
+          </p>
+         </li>
+        </ol>
+        <h2 id="coding-challenge-side-projects">
+         <a aria-hidden="true" class="header-anchor" href="#coding-challenge-side-projects">
+          <i aria-hidden="true" class="fa fa-link">
+          </i>
+         </a>
+         <strong>
+          Coding Challenge Side Projects
+         </strong>
+        </h2>
+        <p>
+         <em>
+          Rather than building a project from scratch, these are collections of coding challenges to improve your skills. If you want to get better at solving discrete problems, or improving your chops with a new programming language, these are all good options.
+         </em>
+        </p>
+        <ol start="31">
+         <li>
+          <p>
+           <strong>
+            <a href="http://adventofcode.com/" rel="nofollow noopener" target="_blank">
+             Advent of Code
+            </a>
+           </strong>
+           (suggested implementation: any language you want to practice). Advent of Code challenges occur every year in the days leading up to Christmas. They include lots of fun programming challenges that can help you develop your chops in a programming language you’re learning or one you want to master. The challenges from
+           <a href="https://adventofcode.com/2015" rel="nofollow noopener" target="_blank">
+            2015
+           </a>
+           ,
+           <a href="https://adventofcode.com/2016" rel="nofollow noopener" target="_blank">
+            2016
+           </a>
+           , and
+           <a href="https://adventofcode.com/2017" rel="nofollow noopener" target="_blank">
+            2017
+           </a>
+           are still available.
+          </p>
+         </li>
+         <li>
+          <p>
+           <strong>
+            <a href="https://www.kaggle.com/c/titanic" rel="nofollow noopener" target="_blank">
+             Kaggle’s Titanic Challenge
+            </a>
+           </strong>
+           (suggested implementation: Python or R). Kaggle offers a fascinating challenge to introduce you to the basics of machine learning with Python or R: use a real data set from the Titanic passenger log to predict which passengers were most likely to survive the disaster.
+          </p>
+         </li>
+         <li>
+          <p>
+           <strong>
+            <a href="https://projecteuler.net/archives" rel="nofollow noopener" target="_blank">
+             Project Euler
+            </a>
+           </strong>
+           (suggested implementation: any programming language you want to practice). Project Euler challenges are dedicated to exploring the marriage between mathematics and programming. Use programming tools to solve various mathematical challenges.
+          </p>
+         </li>
+        </ol>
+        <h2 id="daily-life-side-projects">
+         <a aria-hidden="true" class="header-anchor" href="#daily-life-side-projects">
+          <i aria-hidden="true" class="fa fa-link">
+          </i>
+         </a>
+         <strong>
+          Daily Life Side Projects
+         </strong>
+        </h2>
+        <p>
+         <em>
+          These side projects have a practical purpose: they help with some aspect of your daily life. Though they solve simple real-world problems (things like what to have for lunch), the solutions can be as simple, or as complex, as you’d like.
+         </em>
+        </p>
+        <ol start="34">
+         <li>
+          <p>
+           <strong>
+            Lunch picker
+           </strong>
+           (suggested implementation: CLI, web or mobile app). If you’re a working software engineer, you’ve probably wrestled with one of the toughest questions in software development… where should I have lunch? Your lunch picker is the tool you’ll turn to to answer this question. It can be super simple and pick from a range of options you know you like at random, or more complex — pulling in data from Google Reviews and taking into account: location, price, and type of cuisine.
+          </p>
+         </li>
+         <li>
+          <p>
+           <strong>
+            Date planner
+           </strong>
+           (suggested implementation: mobile app). One of the hardest things about dating, or being in a long-term relationship, is deciding where to go on dates. Build a tool that scours restaurant reviews, event calendars, and other data for date idea suggestions.
+          </p>
+         </li>
+         <li>
+          <p>
+           <strong>
+            Tool to simplify your email newsletters
+           </strong>
+           (suggested implementation: scripts hooked up to a mail server). If you’re like me, you receive way too many email newsletters every week and they clutter up your inbox. Instead of unsubscribing from all of them in a fit of rage, build a tool that captures these emails and compiles them all into a single email that is sent once a week.
+          </p>
+         </li>
+         <li>
+          <p>
+           <strong>
+            ‘Bring your umbrella’ notifier
+           </strong>
+           (suggested implementation: mobile app). Build a simple mobile app that sends you a phone notification in the morning telling you if you should bring your umbrella to work (e.g., if it is going to rain in your area that day).
+          </p>
+         </li>
+         <li>
+          <p>
+           <strong>
+            Collection tracker
+           </strong>
+           (suggested implementation: web or mobile app). Build a tool to keep track of something you collect. You could keep track of: the value of the item, the year it was made, its condition, and its location.
+          </p>
+         </li>
+        </ol>
+        <h2 id="data-side-projects">
+         <a aria-hidden="true" class="header-anchor" href="#data-side-projects">
+          <i aria-hidden="true" class="fa fa-link">
+          </i>
+         </a>
+         <strong>
+          Data Side Projects
+         </strong>
+        </h2>
+        <p>
+         <em>
+          These projects will improve your ability to work with data. Software engineers work with ever-larger amounts of data. These projects will help you learn how to collate, parse, and analyze data with confidence.
+         </em>
+        </p>
+        <ol start="39">
+         <li>
+          <p>
+           <strong>
+            Create and automatically update a data set
+           </strong>
+           (suggested implementation: web scraper input to CSV output). Build a tool to automatically build and update a data set about something you’re interested in. Suggested data sets: stats about your favorite sports team, flights to destinations you want to visit, meteorological data from where you live, or anything else that interests you. The most important thing is that the data set should require constant updates as new data is generated — and should occur automatically. For example, as soon as your sport’s team’s results are posted on a website, the data should be automatically scraped and added to your data set.
+          </p>
+         </li>
+         <li>
+          <p>
+           <strong>
+            Enter a data science competition
+           </strong>
+           (suggested implementation: R or Python). Kaggle hosts a number of data science competitions featuring real-world data sets and hefty cash prizes. You’ll also often be tasked with solving real-world problems like: how to classify toxic online comments, forecast restaurant visitors, or recognize objects from space.
+          </p>
+         </li>
+        </ol>
+        <h2 id="share-your-side-project">
+         <a aria-hidden="true" class="header-anchor" href="#share-your-side-project">
+          <i aria-hidden="true" class="fa fa-link">
+          </i>
+         </a>
+         <strong>
+          Share Your Side Project
+         </strong>
+        </h2>
+        <p>
+         One of the toughest things about working on a side project is getting anybody other than you, your spouse, and your pet cat Millie to appreciate it. Please use the comments on this article as an opportunity to get some love for your latest side project. Share a link to what you’re working on, and let us know:
+        </p>
+        <ul>
+         <li>
+          What has been the biggest challenge while working on your side project?
+         </li>
+         <li>
+          What’s one thing you’ve learned working on your side project?
+         </li>
+         <li>
+          What tips would you give to someone else starting a similar side project?
+         </li>
+        </ul>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="article__footer">
+     <div class="article__container">
+      <div class="article__footer__section">
+       <div class="article__tags">
+        <a class="btn--outline" href="/community/topic/software-engineering">
+         Software engineering
+        </a>
+        <a class="btn--outline" href="/community/topic/software-development">
+         Software development
+        </a>
+       </div>
+       <div class="article__report">
+        <i aria-hidden="true" class="fa fa-flag-o">
+        </i>
+        Report
+       </div>
+      </div>
+     </div>
+     <span style="font-size:0">
+     </span>
+     <div class="article__container">
+      <div class="article__footer__section vertical">
+       <div class="article__footer__prompt">
+        <div class="article__footer__separator">
+        </div>
+        <div class="article__engager offset">
+         <div class="engager-bar__wrapper">
+          <div class="engager__hint engager__hint--show">
+           <div class="jsx-617897676 avatar-img">
+           </div>
+           <p>
+            Enjoy this post? Give
+            <strong>
+             Tash Postolovski
+            </strong>
+            a like if it's helpful.
+           </p>
+          </div>
+          <div class="engager__actions">
+           <div class="article__star btn-heart">
+            <i aria-hidden="true" class="fa fa-heart-o">
+            </i>
+            <div class="btn-heart__number">
+             346
+            </div>
+           </div>
+           <a class="btn-frame-only engager__comment" href="#comments-g8xckyxef">
+            <img src="https://lite-cdn.codementor.io/static/images/Community/icon-comment.png"/>
+            <span>
+             60
+            </span>
+           </a>
+           <div class="btn-frame-only engager__share-btn">
+            <i aria-hidden="true" class="fa fa-share-square-o">
+            </i>
+            <span>
+             Share
+            </span>
+           </div>
+          </div>
+          <div class="addthis_sharing_toolbox engager__sharing" data-title="40 Side Project Ideas for Software Engineers ">
+          </div>
+         </div>
+        </div>
+        <div class="article__footer__separator">
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="article__container">
+      <div class="article__footer__section">
+       <div class="article__author">
+        <div class="jsx-617897676 avatar-img">
+        </div>
+        <div class="author__content">
+         <div class="author__name">
+          <a href="/@npostolovski">
+           Tash Postolovski
+          </a>
+         </div>
+         <div class="author__headline" title="Software developer and Psychology student.">
+          Software developer and Psychology student.
+         </div>
+         <span class="Linkify">
+          <div class="author__desc">
+          </div>
+         </span>
+        </div>
+        <div class="author__action">
+         <div class="btn-primary--outline">
+          Follow
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="jsx-633013373 bottom-bar">
+     <div class="jsx-633013373 wrapper">
+      <div class="jsx-617897676 avatar-img">
+      </div>
+      <div class="jsx-633013373 text">
+       Discover and read more posts from
+       <strong class="jsx-633013373">
+        Tash Postolovski
+       </strong>
+      </div>
+      <div class="jsx-633013373 action">
+       <div class="jsx-633013373 btn-primary">
+        get started
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="article__engager offset article__engager--fixed hidden">
+     <div class="engager-bar__wrapper">
+      <div class="engager__hint">
+       <div class="jsx-617897676 avatar-img">
+       </div>
+       <div class="engager__hint__text">
+        <div class="engager__title">
+         Enjoy this post?
+        </div>
+        <p>
+         Leave a like and comment for
+         <strong>
+          Tash
+         </strong>
+        </p>
+       </div>
+      </div>
+      <div class="engager__actions">
+       <div class="article__star btn-heart">
+        <i aria-hidden="true" class="fa fa-heart-o">
+        </i>
+        <div class="btn-heart__number">
+         346
+        </div>
+       </div>
+       <a class="btn-frame-only engager__comment" href="#comments-g8xckyxef">
+        <img src="https://lite-cdn.codementor.io/static/images/Community/icon-comment.png"/>
+        <span>
+         60
+        </span>
+       </a>
+      </div>
+     </div>
+    </div>
+    <div id="comments">
+     <div class="article__container" id="comments-g8xckyxef">
+      <div class="cm-comments">
+       <style>
+        .cm-comments{display:flex;flex-direction:column;flex:1;margin-bottom:3em;background:#fff;color:#333;font-size:16px}.cm-comments .article-comments__thread{margin-top:2em}.cm-comments .article-comments__thread__header{margin-bottom:1.5em;display:flex;align-items:center;font-weight:700}.cm-comments .article-comments__thread__header img{width:18px;margin-right:.5em}.cm-comments .article-comments__thread__header span{margin-left:4px}.cm-comments .article-comments__load-more{background-color:transparent;flex:1;border:1px solid #ccc;cursor:pointer;border-radius:3px;color:#777;text-align:center;padding:8px 0;margin-top:1.5em;opacity:.7}.cm-comments .article-comments__load-more:hover{opacity:1}.cm-comments .article-comment{display:flex;padding:1em 0}.cm-comments .article-comment~.article-comment{border-top:1px solid #efefef}.cm-comments .article-comment__container:hover .article-comment__anchor{display:block}.cm-comments .article-comment__info{display:flex;align-items:center;margin-top:8px;margin-bottom:.6em;font-size:.8em}.cm-comments .article-comment__name{color:#4b4b4b;font-weight:700;font-size:14px}.cm-comments .article-comment__name a{color:#4b4b4b}.cm-comments .article-comment__timestamp{margin-left:.8em;color:#999}.cm-comments .article-comment__anchor{display:none;color:#999;margin-left:.8em}.cm-comments .article-comment__helpers{flex:1;display:flex;justify-content:flex-end;position:relative}.cm-comments .article-comment__helpers .helper-trigger{font-size:1.2em;cursor:pointer;padding:0 .5em;color:#999}.cm-comments .article-comment__helpers .helper-dropdown{z-index:1;position:absolute;top:22px;width:120px;border-radius:3px;background-color:#f9f9f9;border:1px solid rgba(0,0,0,.06);box-shadow:0 4px 10px 0 rgba(0,0,0,.2)}.cm-comments .article-comment__helpers .helper-dropdown__item{padding:.6em 1.2em;cursor:pointer}.cm-comments .article-comment__helpers .helper-dropdown__item i{margin-right:10px}.cm-comments .article-comment__helpers .helper-dropdown__item:hover{background:#00b5e2;color:#fff}.cm-comments .article-comment__body{margin-left:1em;flex:1}.cm-comments .article-comment__content{color:#222;word-break:break-word;font-size:1.1em;line-height:30px;position:relative}.cm-comments .article-comment__content a{color:#1aafd0}.cm-comments .article-comment__content--overflow{cursor:pointer;max-height:200px;overflow:hidden}.cm-comments .article-comment__content--expanded{max-height:auto}.cm-comments .article-comment__content__mask{background:linear-gradient(180deg,hsla(0,0%,100%,.1),#fff 50%);width:100%;position:absolute;height:70px;padding-bottom:5px;bottom:0;display:flex;align-items:flex-end}.cm-comments .article-comment__content__expand{width:100%;cursor:pointer;color:#00b5e2}.cm-comments .article-comment__content ul{list-style:initial;margin-bottom:1em}.cm-comments .article-comment__content p{margin-top:0;margin-bottom:1em}.cm-comments .article-comment__content blockquote p:last-child{margin-bottom:0}.cm-comments .article-comment__content h1,.cm-comments .article-comment__content h2,.cm-comments .article-comment__content h3{margin:14px 0 12px}.cm-comments .article-comment__content h1{font-size:1.8em}.cm-comments .article-comment__content h2{font-size:1.6em;font-weight:600}.cm-comments .article-comment__content h3{font-size:1.4em}.cm-comments .article-comment__content strong{font-size:1em;color:#444}.cm-comments .article-comment__content pre{font-size:14px;border-color:#e6e6e6;background:#f9f9f9}.cm-comments .article-comment__content img{max-width:70%;margin:.4em 0}@media (max-width:640px){.cm-comments .article-comment__content img{max-width:100%}}.cm-comments .article-comment__child>.article-comment:first-child{margin-top:1em;border-top:1px solid #efefef}.cm-comments .article-comment__child>.article-comment:last-child{padding-bottom:0}.cm-comments .article-comment__child>.reply-form{margin-top:1em;padding:1.5em 0 1em;border-top:1px solid #efefef}.cm-comments .article-comment__child .article-comment__child{margin-top:0}.cm-comments .article-comment__footer-actions{display:flex;align-items:center;font-size:.8em;color:#aaa;height:18px}.cm-comments .article-comment__footer-actions>div+div{margin-left:1em}.cm-comments .article-comment__footer-actions .footer-actions__item{cursor:pointer;display:flex;align-items:center}.cm-comments .article-comment__footer-actions .footer-actions__item:hover{color:#888}.cm-comments .article-comment__footer-actions .footer-actions__like-count{margin-left:4px}.cm-comments .article-comment .fa-heart,.cm-comments .article-comment .fa-heart-o{color:rgba(255,140,72,.7);font-size:14px}.cm-comments .reply-form{display:flex;margin-bottom:1em}.cm-comments .reply-form textarea{width:100%}.cm-comments .reply-form .markdown-hint{font-size:.8em;display:flex;align-items:center;color:#888}.cm-comments .reply-form .markdown-hint img{opacity:.5;margin-right:6px;width:16px}.cm-comments .reply-form .markdown-hint a{color:#888;margin-right:4px}.cm-comments .reply-form__inputs{flex:1;margin-left:.8em}.cm-comments .reply-form--avatar{margin-top:5px}.cm-comments .reply-form__footer{display:none;justify-content:space-between;align-items:center;margin-top:8px}.cm-comments .reply-form__actions{display:flex;justify-content:flex-end;align-items:center}.cm-comments .reply-form__actions>div+div{margin-left:.6em}.cm-comments .reply-form__actions__cancel{color:#999;cursor:pointer}.cm-comments .reply-form__content{padding:1em 1.2em;border-radius:3px;background-color:#fafbfc;border:1px solid #efefef;resize:none!important}.cm-comments .reply-form__content:focus{border-color:#00b5e2}.cm-comments .reply-form__content.dirty~.reply-form__footer,.cm-comments .reply-form__content:focus~.reply-form__footer{display:flex}@media (max-width:640px){.cm-comments{margin:2em 0}.cm-comments .article-comment--avatar{width:30px;height:30px}.cm-comments .article-comment__body{margin-left:.5em}}
+       </style>
+       <div class="article-comments__thread">
+        <div class="article-comments__thread__header">
+         <img src="https://lite-cdn.codementor.io/static/images/Community/icon-comment.png"/>
+         60
+         <span>
+          Replies
+         </span>
+        </div>
+        <div class="reply-form">
+         <div class="jsx-617897676 avatar-img">
+         </div>
+         <div class="reply-form__inputs">
+          <textarea class="reply-form__content" placeholder="Leave a reply" rows="2"></textarea>
+          <div class="reply-form__footer">
+           <div class="markdown-hint">
+            <img src="https://lite-cdn.codementor.io/static/images/ArticleEditor/markdown-icon.png"/>
+            <a href="https://guides.github.com/features/mastering-markdown/" target="_blank">
+             GitHub flavored markdown
+            </a>
+            <!-- -->
+            supported
+           </div>
+           <div class="reply-form__actions">
+            <div class="btn-primary btn-primary--disabled">
+             submit
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+        <div class="article-comment" id="comment-199z1m3gec">
+         <div class="jsx-617897676 avatar-img">
+         </div>
+         <div class="article-comment__body">
+          <div class="article-comment__container">
+           <div class="article-comment__info">
+            <div class="article-comment__name">
+             <a href="/@yudhistraverma">
+              Yudhistra Verma
+             </a>
+            </div>
+            <div class="article-comment__timestamp">
+             a month ago
+            </div>
+            <a class="article-comment__anchor" href="#comment-199z1m3gec">
+             <i aria-hidden="true" class="fa fa-link">
+             </i>
+            </a>
+            <div class="article-comment__helpers">
+             <div class="helper-trigger">
+              <i aria-hidden="true" class="fa fa-angle-down">
+              </i>
+             </div>
+            </div>
+           </div>
+           <div class="article-comment__content">
+            <div class="md-viewer">
+             <p>
+              Thank you, Tash.
+             </p>
+            </div>
+           </div>
+           <div class="article-comment__footer-actions">
+            <div class="footer-actions__item">
+             <i aria-hidden="true" class="fa fa-heart-o">
+             </i>
+             <div class="footer-actions__like-count">
+             </div>
+            </div>
+            <div class="footer-actions__item">
+             Reply
+            </div>
+           </div>
+          </div>
+          <div class="article-comment__child">
+          </div>
+         </div>
+        </div>
+        <div class="article-comment" id="comment-196bv947el">
+         <div class="jsx-617897676 avatar-img">
+         </div>
+         <div class="article-comment__body">
+          <div class="article-comment__container">
+           <div class="article-comment__info">
+            <div class="article-comment__name">
+             <a href="/@ciroromero">
+              Ciro Romero
+             </a>
+            </div>
+            <div class="article-comment__timestamp">
+             a month ago
+            </div>
+            <a class="article-comment__anchor" href="#comment-196bv947el">
+             <i aria-hidden="true" class="fa fa-link">
+             </i>
+            </a>
+            <div class="article-comment__helpers">
+             <div class="helper-trigger">
+              <i aria-hidden="true" class="fa fa-angle-down">
+              </i>
+             </div>
+            </div>
+           </div>
+           <div class="article-comment__content">
+            <div class="md-viewer">
+             <p>
+              <a href="https://www.youtube.com/watch?v=px5LHPIBwGw&amp;list=PL1W-HCATamn4X3SEsy88eqCD2brQdhO1n&amp;index=2&amp;t=9s" rel="noopener nofollow" target="_blank">
+               https://www.youtube.com/watch?v=px5LHPIBwGw&amp;list=PL1W-HCATamn4X3SEsy88eqCD2brQdhO1n&amp;index=2&amp;t=9s
+              </a>
+             </p>
+            </div>
+           </div>
+           <div class="article-comment__footer-actions">
+            <div class="footer-actions__item">
+             <i aria-hidden="true" class="fa fa-heart-o">
+             </i>
+             <div class="footer-actions__like-count">
+             </div>
+            </div>
+            <div class="footer-actions__item">
+             Reply
+            </div>
+           </div>
+          </div>
+          <div class="article-comment__child">
+          </div>
+         </div>
+        </div>
+        <div class="article-comment" id="comment-190cfld78r">
+         <div class="jsx-617897676 avatar-img">
+         </div>
+         <div class="article-comment__body">
+          <div class="article-comment__container">
+           <div class="article-comment__info">
+            <div class="article-comment__name">
+             <a href="/@hosseinkhojany">
+              Khoujani
+             </a>
+            </div>
+            <div class="article-comment__timestamp">
+             2 months ago
+            </div>
+            <a class="article-comment__anchor" href="#comment-190cfld78r">
+             <i aria-hidden="true" class="fa fa-link">
+             </i>
+            </a>
+            <div class="article-comment__helpers">
+             <div class="helper-trigger">
+              <i aria-hidden="true" class="fa fa-angle-down">
+              </i>
+             </div>
+            </div>
+           </div>
+           <div class="article-comment__content">
+            <div class="md-viewer">
+             <p>
+              It was extraordinary
+             </p>
+            </div>
+           </div>
+           <div class="article-comment__footer-actions">
+            <div class="footer-actions__item">
+             <i aria-hidden="true" class="fa fa-heart-o">
+             </i>
+             <div class="footer-actions__like-count">
+             </div>
+            </div>
+            <div class="footer-actions__item">
+             Reply
+            </div>
+           </div>
+          </div>
+          <div class="article-comment__child">
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="article-comments__load-more">
+        Show more replies
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="article__infinite-loading__trigger">
+     <span style="font-size:0">
+     </span>
+    </div>
+   </div>
+  </div>
+  <script src="//s7.addthis.com/js/300/addthis_widget.js#async=1">
+  </script>
+  <script>
+   var addthis_config = addthis_config || {};
+addthis_config.pubid = 'ra-53b5cfa02e32c86d'
+  </script>
+  <script>
+   /* <![CDATA[ */
+goog_snippet_vars = function() {
+  var w = window;
+      w.google_conversion_id = 996301096;
+  w.google_conversion_label = '7dvxCPGUxmgQqLKJ2wM';
+  w.google_remarketing_only = false;
+}
+goog_report_conversion = function(url) {
+  goog_snippet_vars();
+  window.google_conversion_format = '3';
+  var opt = new Object();
+  opt.onload_callback = function() {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  }
+  var conv_handler = window['google_trackConversion'];
+  if (typeof(conv_handler) == 'function') {
+    conv_handler(opt);
+  }
+}
+/* ]]> */
+  </script>
+  <script src="//www.googleadservices.com/pagead/conversion_async.js">
+  </script>
+  <script>
+   !function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
+},s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='//static.ads-twitter.com/uwt.js',
+a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
+twq('init','nx84k');
+  </script>
+  <script src="https://cdn.polyfill.io/v2/polyfill.min.js">
+  </script>
+  <script crossorigin="anonymous" id="__NEXT_DATA__" type="application/json">
+   {"dataManager":"[]","props":{"isServer":true,"initialState":{"currentUser":{},"article":{"articleMap":{"g8xckyxef":{"urlString":"40-side-project-ideas-for-software-engineers","publishedAt":1517465917,"summary":"The most exciting side projects a soft engineer could pursue.","relatedArticles":[{"title":"Why I created and launched Roadmap, a community where makers share their projects and progress","urlString":"why-i-created-and-launched-roadmap-a-community-where-makers-share-their-projects-and-progress","randomKey":"dtsqh613t","coverPhotoUrl":"https://cdn.filestackcontent.com/VcR3gJklRJi84uN2u2wo","author":{"name":"Adam Davies","username":"adamdavies","level":"mentor","smallAvatarUrl":"https://cdn.filestackcontent.com/CdylHkj5QJu9YN6TB8SB"}},{"title":"Reliable Augment Reality Apps For iOS","urlString":"reliable-argument-reality-apps-for-ios","randomKey":"du8dluhbc","coverPhotoUrl":"https://cdn.filestackcontent.com/nhKhUbRSh2YVejeTJEms","author":{"name":"ARPost","username":"arpostco","level":"user","smallAvatarUrl":"https://cdn.filestackcontent.com/y8AV7Oi0Rl21oztwvzzA"}},{"title":"Before jumping into the code","urlString":"before-jumping-into-the-code","randomKey":"dx4tefj46","coverPhotoUrl":"https://cdn.filestackcontent.com/7xFX0CEReWxxXkVthcZF","author":{"name":"Félix Olivares Estrada","username":"felixoe","level":"mentor","smallAvatarUrl":"https://cdn.filestackcontent.com/A8wMPp3fS027s0o6lB99"}}],"noMoreComments":false,"author":{"level":"user","name":"Tash Postolovski","about":"","smallAvatarUrl":"https://www.gravatar.com/avatar/47ff4f0c4076fc872bb1ac82203e0e47?d=mm\u0026s=64","headline":"Software developer and Psychology student.","username":"npostolovski","avatarUrl":"https://www.gravatar.com/avatar/47ff4f0c4076fc872bb1ac82203e0e47?d=mm\u0026s=200","id":286692,"createdAt":1509354234,"uuid":"46e20ee8-66b4-4033-bd57-fc8848c3c5f3","rating":0},"previewMode":false,"isLoadingComment":false,"updatedAt":1532985371,"url":"https://www.codementor.io/@npostolovski/40-side-project-ideas-for-software-engineers-g8xckyxef","commentCount":60,"noIndex":false,"isLoading":false,"comments":[{"randomKey":"199z1m3gec","content":"Thank you, Tash.","ownerType":"User","createdAt":1597271656,"liked":false,"likeCount":0,"user":{"name":"Yudhistra Verma","username":"yudhistraverma","smallAvatarUrl":"https://cdn.filestackcontent.com/EHNJ1rYcTYWCB1yctXWw"},"childComments":[]},{"randomKey":"196bv947el","content":"https://www.youtube.com/watch?v=px5LHPIBwGw\u0026list=PL1W-HCATamn4X3SEsy88eqCD2brQdhO1n\u0026index=2\u0026t=9s","ownerType":"User","createdAt":1596992806,"liked":false,"likeCount":0,"user":{"name":"Ciro Romero","username":"ciroromero","smallAvatarUrl":"https://cdn.filestackcontent.com/fn9nh5SxSmCQGKA6veBB"},"childComments":[]},{"randomKey":"190cfld78r","content":"It was extraordinary","ownerType":"User","createdAt":1596534842,"liked":false,"likeCount":0,"user":{"name":"Khoujani","username":"hosseinkhojany","smallAvatarUrl":"https://cdn.filestackcontent.com/SJ4Z4dulSamPwIe1AAQZ"},"childComments":[]}],"coverPhotoUrl":"https://cdn.filestackcontent.com/1L1wbcCQg2ngajmOjHZV","sourceUrl":null,"title":"40 Side Project Ideas for Software Engineers ","content":"One of the most important ways to develop your skills and improve your employability as a software engineer is to work on side projects. These can run the gamut from open source projects to helpful tools and scripts, to fun toys.\n\nWhile some of our colleagues always seem to be working on a new side project, it’s not so easy for the rest of us. We *want* to work on a side project but struggle to come up with a good idea. \n\nIn my experience, this happens when we  subconsciously artificially restrict ourselves. For example, we may unintentionally limit the types of projects that we feel are ‘worthy’ as side projects.\n\nBy setting the bar too high — like aiming to create a successful, popular, and original open source library — we rob ourselves of the opportunity to have fun and learn something from a less ambitious, but still worthwhile, side project.\n\nIn this post, I want to help fight “side project paralysis” by offering up 40 side project ideas that any software developer can start in one weekend. The emphasis here is not on projects that are going to change the world. Instead, these are fun projects to give you something to add to your portfolio **and** make you a better developer. \n\n## **Computer Science Side Projects**\n\n*These projects are suited for engineers trying to beef up their computer science fundamentals. They’ll help you learn more about specific aspects of computing, like file transfer and operating systems design. These projects can be particularly useful for self-taught developers who’ve focused more on practical skills than comp sci fundamentals.*\n\n1. **FTP Client** (suggested implementation: web, desktop or CLI app). \nBuild a simple FTP client. As a bonus challenge, support secure file transfer.\n\n2. **HTTP Server** (suggested implementation: any programming language you want to master). To understand HTTP deeply, build an HTTP server. There are a number of [tutorials](https://ruslanspivak.com/lsbaws-part1/) available to guide you through the process.\n\n3. **Build a simple operating system** (suggested implementation: any programming language you want to master). This is a project that is technically challenging and will deepen your understanding of how computers and operating systems work. You might wish to start with the free (and cleverly named) book, [Operating Systems: From 0 to 1](https://tuhdo.github.io/os01/).\n\n4. **Build a web scraper** (suggested implementation: any programming language you want to master). Build a tool that takes a URL as input and returns the content of the URL as HTML or XML.\n\n5. **Bandwidth monitor** (suggested implementation: live updating CLI tool). Build a tool to track how much data you have downloaded or uploaded on the internet. Have it email you a weekly report of your usage. As a bonus challenge, predict peak usage times.\n\n6. **Implement a cipher** (suggested implementation: any programming language you want to master). Build a tool that takes a string of text as input and encrypts it using a cipher, such as the [Caesar cipher](https://en.wikipedia.org/wiki/Caesar_cipher). \n\n7. **Create a text message downtime alerter** (suggested implementation: app hooked up to the [Twilio API](https://www.twilio.com/docs/api/rest) for sending text messages). Create an app that takes a URL as input and sends you a text message when a request to the URL returns a response code other than 200 (OK).\n\n## **Personal Finance Side Projects**\n\n*These projects will help you achieve a practical goal (get a better handle on your finances), while also improving your software engineering skills.*\n\n8. **A net worth calculator and tracker** (suggested implementation: CLI, web, or mobile app). Build a calculator you can use to track the rise or fall of your net worth on a monthly basis. You can use something like this [net worth worksheet](http://www.schwabmoneywise.com/public/file/P-4038856/Net-Worth-Worksheet.pdf) from Charles Schwab to guide you. Optional extension: have it send you a 12 month report for the previous year on the first of January each year.\n\n9. **A tax forecaster** (suggested implementation: web app). This will be particularly useful if you do any freelance software engineering. Build a tool that takes your freelance earnings as input and then predicts your expected tax liability for the rest of the financial year. Make it smart enough to predict periods of higher or lower demand for your services, and adjust accordingly.\n\n10. **A deal finder** (suggested implementation: web app with mobile notifications). Build a simple web app to notify you when an item you covet goes on sale for a good price. You could use a web scraper to pull the item’s product page and notify you of any price changes.\n\n11. **An expense tracker** (suggested implementation: web or mobile app). Create a simple interface you can use to add and categorize your expenses. Generate monthly reports based on the inputs and write custom alerts for things, like, “spending too much money on coffee… as always.”\n\n12. **A financial independence calculator** (suggested implementation: web app). [Financial independence](https://www.reddit.com/r/financialindependence/) is, essentially, saving and investing as much of your income as possible so that you don’t *need* to work for money. While many financially independent people continue to work, they can now focus on doing work that they love, rather than work that pays the most. Build a tool to calculate, based on your: current savings, investments, income, retirement accounts, and expenses, how far away you are from financial independence. Some examples: [FIREcalc](https://www.firecalc.com/), [cFIREsim](http://www.cfiresim.com/).\n\n13. **A bill splitter** (suggested implementation: mobile app). Build a simple tool to help you and your friends split bills when you go out to eat together.\n\n## **Games and Simulation Side Projects**\n\n*Most software engineers I know are fascinated by the world of game development, graphics, and simulations, but don’t have a lot of experience with them. These projects are small enough that you can set foot into this world without biting off more than you can chew.*\n\n14. **A random name generator** (suggested implementation: CLI, web, or mobile app). Build a random name generator ([example](https://www.behindthename.com/random/)) that creates unique names on the fly, based on an algorithm. Use machine learning techniques to help you by training the program with a sample data set of names similar to those you want to generate. Otherwise, create your own lexical rules for how names are generated. For example, a name generating algorithm inspired by [The Handmaid's Tale](https://en.wikipedia.org/wiki/The_Handmaid%27s_Tale) might stipulate that names for Handmaid women should start with 'Of', and end with a random male name, e.g., Ofpeter.\n\n15. **[Conway’s Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)** (suggested implementation: any platform capable of real-time graphical rendering). Conway’s Game of Life simulates the lives of simple cells that obey algorithmic laws. This video explains how the game works and includes an example of one possible result:\n\n@[epic conway's game of life](https://www.youtube.com/watch?v=C2vgICfQawE\u0026feature=player_embedded)\n\n16. **A procedurally generated map maker** (suggested implementation: browser-based app). Create a browser-based application that allows users to procedurally generate a terrain map based on a random seed. The map can be as detailed or as simple as you’d like. This project is a good opportunity to learn about [procedural generation](https://en.wikipedia.org/wiki/Procedural_generation).\n\n17. **A character generator** (suggested implementation: browser-based or mobile app, CLI). Create a tool that allows you to randomly generate playable characters for your favorite role-playing games, whether they be tabletop games, like Pathfinder, or video games, like Divinity: Original Sin.\n\n18. **Interactive fiction** (suggested implementation: CLI). A fun way to get into game development without having to worry about graphical assets, interactive fiction renders the world for the player through text descriptions. [The Dreamhold](http://eblong.com/zarf/zweb/dreamhold/) is a good example of interactive fiction with a useful ‘help’ command.\n\n## **Artificial Intelligence Side Projects**\n\n*AI’s usefulness in day-to-day software engineering is increasing by leaps and bounds. It’s now easier than ever before to make your first forays into the world of Artificial Intelligence.*\n\n19. **An unbeatable Tic-Tac-Toe engine** (suggested implementation: CLI program). For an excellent first AI project, try to write an engine that cannot be beaten at Tic-Tac-Toe. You can achieve this by implementing this [strategy](https://en.wikipedia.org/wiki/Tic-tac-toe#Strategy), which produces a draw as its worst-case outcome.\n\n20. **A chess engine** (suggested implementation: an engine written in a programming language you want to learn, or master). Try to write an engine that can play chess against a human opponent using a [Universal Chess Interface](http://wbec-ridderkerk.nl/html/UCIProtocol.html) compatible GUI, such as XBoard. See [Stockfish](https://github.com/official-stockfish/Stockfish) as an example. For a less daunting challenge, you may wish to focus on the behavior of just one piece, e.g., Knights.\n\n21. **A niche chatbot** (suggested implementation: web app). Some of the greatest minds in the world are working on chatbots that respond in lifelike ways. It’s an incredibly difficult challenge, but, by reducing the scope of your chatbot, you have a side project that is more approachable for evenings and weekends. Create a chatbot that produces real-sounding responses based on a niche topic that you’re passionate about: your favorite band, video game, sports team, or TV show. Leverage an existing library to help you, such as [ChatterBot](https://github.com/gunthercox/ChatterBot).\n\n22. **A spam classifier** (suggested implementation: any programming language you want to master). Build a tool to classify whether an email is or isn’t spam based on the content alone. You can use this [public data set of emails from the Enron investigation](https://www.kaggle.com/wcukierski/enron-email-dataset) to test your spam classifier.\n\n## **Entertainment Side Projects**\n\n*These projects are for software engineers who want to work on something fun and light-hearted.*\n\n23. **A movie showtime finder** (suggested implementation: web or mobile app with email or text message notifications). Build a program that notifies you, by text or email, about showtimes for potentially interesting movies playing at your favorite cinema. The concept of an 'interesting movie' can be derived using machine learning (if you watch enough movies to have good training data), or a handcrafted algorithm. For example, you might use the [Open Movie Database API](http://www.omdbapi.com/), paired with an HTML parser like [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/), to build a program that alerts you to sci-fi movies rated 7.0 or above on IMDB, movies starring Amy Adams, and/or any movie with an average rating of 8.0 or higher.\n\n24. **A spoiler blocker** (suggested implementation: browser extension). Short of implementing a total social media/internet/watercooler chat ban, it can be difficult to avoid seeing spoilers for your favorite TV show… especially if that TV show is as popular as Game of Thrones. Create a browser extension that removes all mentions of your favorite show from any webpage loaded in your browser… or replaces them with cute pictures of puppies.\n\n## **Fun Side Projects**\n\n*These projects are all different, from logging sensor data to finding new desktop backgrounds for your computer. One thing they all have in common is that they’re fun, and several of them will have you work with interesting APIs.*\n\n25. **Pixel art generator** (suggested implementation: any programming language you want to master). Build a tool that takes an image as input and samples the image to produce pixel art as output. If you want to improve your front-end skills, generate the resulting pixel art using CSS.\n\n26. **Music suggestion tool** (suggested implementation: build a wrapper for the [Spotify API](https://developer.spotify.com/web-api/get-the-users-currently-playing-track/)). Create a tool that tracks the music you listen to and generates a playlist with similar qualities, but of songs you haven’t heard before. The Spotify API provides all of the tools needed to extract what you’ve listened to and create a playlist — the recommendation engine is up to you!\n\n27. **Temperature logger** (suggested implementation: Raspberry Pi, temperature sensor, web app). Have your Raspberry Pi hooked up to a temperature sensor and send temperature data from your home to a web app that saves the data to a database or updates a CSV file. For bonus points, have a weekly temperature report emailed to you. Other Raspberry Pi projects: [home automation](https://electronicsofthings.com/videos/home-automation-hand-gesture/), [home security](https://electronicsforu.com/electronics-projects/iot-video-surveillance-raspberry-pi).\n\n28. **Microlearning app** (suggested implementation: web or mobile app). Build an application that sends you one page per day about something you want to learn. This could be a random page from Wikipedia, a page of [React](https://reactjs.org/docs/hello-world.html) documentation, a [Kanji](https://jisho.org/) character, or a page from the [CIA World Factbook](https://www.cia.gov/library/publications/the-world-factbook/).\n\n29. **Slack bot** (suggested implementation: [Slack API](https://api.slack.com/)). If you or your team use the popular chat app Slack, build a bot to make some aspect of your (or your team’s) life easier. Ideas: a coffee order bot, a bot that reports daily on the number of commits made to your team repos, or a daily stand-up reminder bot.\n\n30. **Daily desktop background** (suggested implementation: [Unsplash API](https://unsplash.com/developers), scripting language for your OS). Build an app that refreshes your desktop background with a new image every day.\n\n## **Coding Challenge Side Projects**\n\n*Rather than building a project from scratch, these are collections of coding challenges to improve your skills. If you want to get better at solving discrete problems, or improving your chops with a new programming language, these are all good options.*\n\n31. **[Advent of Code](http://adventofcode.com/)** (suggested implementation: any language you want to practice). Advent of Code challenges occur every year in the days leading up to Christmas. They include lots of fun programming challenges that can help you develop your chops in a programming language you’re learning or one you want to master. The challenges from [2015](https://adventofcode.com/2015), [2016](https://adventofcode.com/2016), and [2017](https://adventofcode.com/2017) are still available.\n\n32. **[Kaggle’s Titanic Challenge](https://www.kaggle.com/c/titanic)** (suggested implementation: Python or R). Kaggle offers a fascinating challenge to introduce you to the basics of machine learning with Python or R: use a real data set from the Titanic passenger log to predict which passengers were most likely to survive the disaster.\n\n33. **[Project Euler](https://projecteuler.net/archives)** (suggested implementation: any programming language you want to practice). Project Euler challenges are dedicated to exploring the marriage between mathematics and programming. Use programming tools to solve various mathematical challenges.\n\n## **Daily Life Side Projects**\n\n*These side projects have a practical purpose: they help with some aspect of your daily life. Though they solve simple real-world problems (things like what to have for lunch), the solutions can be as simple, or as complex, as you’d like.*\n\n34. **Lunch picker** (suggested implementation: CLI, web or mobile app). If you’re a working software engineer, you’ve probably wrestled with one of the toughest questions in software development… where should I have lunch? Your lunch picker is the tool you’ll turn to to answer this question. It can be super simple and pick from a range of options you know you like at random, or more complex — pulling in data from Google Reviews and taking into account: location, price, and type of cuisine.\n\n35. **Date planner** (suggested implementation: mobile app). One of the hardest things about dating, or being in a long-term relationship, is deciding where to go on dates. Build a tool that scours restaurant reviews, event calendars, and other data for date idea suggestions.\n\n36. **Tool to simplify your email newsletters** (suggested implementation: scripts hooked up to a mail server). If you’re like me, you receive way too many email newsletters every week and they clutter up your inbox. Instead of unsubscribing from all of them in a fit of rage, build a tool that captures these emails and compiles them all into a single email that is sent once a week.\n\n37. **‘Bring your umbrella’ notifier** (suggested implementation: mobile app). Build a simple mobile app that sends you a phone notification in the morning telling you if you should bring your umbrella to work (e.g., if it is going to rain in your area that day).\n\n38. **Collection tracker** (suggested implementation: web or mobile app). Build a tool to keep track of something you collect. You could keep track of: the value of the item, the year it was made, its condition, and its location.\n\n## **Data Side Projects**\n\n*These projects will improve your ability to work with data. Software engineers work with ever-larger amounts of data. These projects will help you learn how to collate, parse, and analyze data with confidence.*\n\n39. **Create and automatically update a data set** (suggested implementation: web scraper input to CSV output). Build a tool to automatically build and update a data set about something you’re interested in. Suggested data sets: stats about your favorite sports team, flights to destinations you want to visit, meteorological data from where you live, or anything else that interests you. The most important thing is that the data set should require constant updates as new data is generated — and should occur automatically. For example, as soon as your sport’s team’s results are posted on a website, the data should be automatically scraped and added to your data set.\n\n40. **Enter a data science competition** (suggested implementation: R or Python). Kaggle hosts a number of data science competitions featuring real-world data sets and hefty cash prizes. You’ll also often be tasked with solving real-world problems like: how to classify toxic online comments, forecast restaurant visitors, or recognize objects from space.\n\n## **Share Your Side Project**\n\nOne of the toughest things about working on a side project is getting anybody other than you, your spouse, and your pet cat Millie to appreciate it. Please use the comments on this article as an opportunity to get some love for your latest side project. Share a link to what you’re working on, and let us know:\n\n* What has been the biggest challenge while working on your side project?\n* What’s one thing you’ve learned working on your side project?\n* What tips would you give to someone else starting a similar side project?\n\n","createdAt":1517296811,"categories":[{"name":"Software engineering","urlString":"software-engineering"},{"name":"Software development","urlString":"software-development"}],"randomKey":"g8xckyxef","followingAuthor":false,"starCount":346,"starred":false}},"currentArticleId":"g8xckyxef","suggestedArticles":[],"myComment":{"isSending":false,"content":"","randomKey":""}},"notifications":{"communityList":[],"communityBadge":0,"noMoreCommunityList":false},"subscription":{"isSending":false,"creationSuccess":false,"switchToWeeklySuccess":false,"confirmed":false},"communityOnboarding":{"suggestedAuthors":[],"loadingAuthors":true,"onboardingCompleted":false,"openModal":false,"checklist":{}},"community":{"categoryFollowStatus":{},"searchResultArticles":[],"paginationMap":{},"searchInfoMap":{},"isLoadingMore":false,"topWriters":{"authors":[]},"isSearching":false,"noMoreFeedArticles":false,"isLoading":false,"currentCategory":{},"suggestedCategories":[],"articlesMap":{"trendingArticles":[],"newArticles":[],"featuredArticles":[],"mostStarsArticles":[],"feedArticles":[]}},"followedCategories":{"list":[],"isLoading":false},"collections":{"currentCollection":{"noMoreComments":true,"author":{},"isLoadingComment":false,"liked":false,"sections":[],"commentCount":0,"isLoading":false,"contributorCount":1,"comments":[],"likeCount":0,"content":"","followingAuthor":false},"list":[]},"articleEditor":{"article":{"randomKey":"","title":"","content":"","coverPhotoUrl":"","categories":[],"summary":"","aasmState":"draft"},"categorySuggestions":[],"isSaving":false,"isLoading":false,"isPublishing":false,"seenGreeting":true,"lastSavedAt":null},"jobs":{"suggestedJob":{}},"uploadcare":{"authorizing":false,"signature":"","expire":0}},"initialProps":{"pageProps":{}}},"page":"/article/show","query":{"username":"npostolovski","slug":"40-side-project-ideas-for-software-engineers-g8xckyxef"},"buildId":"lyZ0jw4V9dJMel8CwRD_I","assetPrefix":"https://lite-cdn.codementor.io"}
+  </script>
+  <script crossorigin="anonymous" nomodule="" src="https://lite-cdn.codementor.io/_next/static/runtime/polyfills-88e9bfff2612f23c07d7.js">
+  </script>
+  <script async="" crossorigin="anonymous" data-next-page="/article/show" src="https://lite-cdn.codementor.io/_next/static/lyZ0jw4V9dJMel8CwRD_I/pages/article/show.js">
+  </script>
+  <script async="" crossorigin="anonymous" data-next-page="/_app" src="https://lite-cdn.codementor.io/_next/static/lyZ0jw4V9dJMel8CwRD_I/pages/_app.js">
+  </script>
+  <script async="" crossorigin="anonymous" src="https://lite-cdn.codementor.io/_next/static/runtime/webpack-5b086409cda18be5b99f.js">
+  </script>
+  <script async="" crossorigin="anonymous" src="https://lite-cdn.codementor.io/_next/static/chunks/commons.b16d272deb3faeccf90f.js">
+  </script>
+  <script async="" crossorigin="anonymous" src="https://lite-cdn.codementor.io/_next/static/runtime/main-f63d6cb97e1c88a2306c.js">
+  </script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet"/>
+  <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet"/>
+ </body>
+</html>
